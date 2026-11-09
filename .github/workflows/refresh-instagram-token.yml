@@ -2,8 +2,8 @@ name: Refresh Instagram token
 
 # Instagram-login tokens (IG...) last 60 days; refreshing weekly keeps them alive (needs SECRETS_PAT:
 # a fine-grained token for this repository with "Secrets: Read and write").
-# Facebook/business tokens (EAA...) cannot be refreshed this way: the job reports their expiry and
-# fails when fewer than 14 days are left, so GitHub e-mails a reminder in time.
+# Facebook/business tokens (EAA...) cannot be refreshed this way: the job checks weekly that the token
+# still works and fails otherwise, so GitHub e-mails a reminder.
 on:
   schedule:
     - cron: '23 5 * * 1'
@@ -17,6 +17,7 @@ jobs:
       - name: Refresh and store token
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
           GH_TOKEN: ${{ secrets.SECRETS_PAT }}
           IG_API_HOST: https://graph.instagram.com
         run: |
@@ -24,16 +25,11 @@ jobs:
           [ -n "$IG_ACCESS_TOKEN" ] || { echo "IG_ACCESS_TOKEN not set, nothing to refresh"; exit 0; }
           IG_ACCESS_TOKEN=$(printf '%s' "$IG_ACCESS_TOKEN" | tr -d '[:space:]')
           if [[ "$IG_ACCESS_TOKEN" == EAA* ]]; then
-            info=$(curl -sS -G https://graph.facebook.com/v23.0/debug_token \
-              --data-urlencode "input_token=$IG_ACCESS_TOKEN" --data-urlencode "access_token=$IG_ACCESS_TOKEN")
-            exp=$(echo "$info" | jq -r '.data.expires_at // empty')
-            valid=$(echo "$info" | jq -r '.data.is_valid // empty')
-            echo "Facebook token: valid=$valid type=$(echo "$info" | jq -r '.data.type // "?"') expires_at=$exp"
-            [ "$valid" = "true" ] || { echo "::error::Instagram token is not valid: $(echo "$info" | jq -c '.error // .data.error // {}')"; exit 1; }
-            if [ -z "$exp" ] || [ "$exp" = "0" ]; then echo "Token does not expire."; exit 0; fi
-            left=$(( (exp - $(date +%s)) / 86400 ))
-            echo "Days left: $left"
-            [ "$left" -ge 14 ] || { echo "::error::Instagram token expires in $left days. Generate a new one in the Meta app and update IG_ACCESS_TOKEN."; exit 1; }
+            # Facebook-issued tokens cannot be refreshed or self-inspected here: verify they still work.
+            code=$(curl -sS -o /tmp/ig.json -w '%{http_code}' -G "https://graph.facebook.com/v23.0/$IG_USER_ID" \
+              --data-urlencode fields=username --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+            [ "$code" = "200" ] || { echo "::error::Instagram token no longer works (HTTP $code): $(jq -c .error /tmp/ig.json). Generate a new token in the Meta app and update IG_ACCESS_TOKEN."; exit 1; }
+            echo "Instagram token works for @$(jq -r .username /tmp/ig.json)."
             exit 0
           fi
           [ -n "$GH_TOKEN" ] || { echo "::error::SECRETS_PAT is missing"; exit 1; }
