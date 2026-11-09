@@ -118,8 +118,9 @@ const post = due[0];
 const queued = posts.filter((p) => p.publish_on > today).length;
 
 if (!Object.values(platforms).some(Boolean) && !dryRun) {
-  console.error('No platform credentials configured (IG_* or LINKEDIN_*).');
-  process.exit(1);
+  // Not set up yet: warn instead of failing so scheduled runs do not send error e-mails.
+  console.log('::warning::No platform credentials configured (IG_* or LINKEDIN_*). Nothing published.');
+  process.exit(0);
 }
 if (!post) {
   console.log(`Nothing due on ${today}. ${queued} post(s) waiting in queue.`);
