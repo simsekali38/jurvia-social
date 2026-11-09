@@ -5,7 +5,8 @@
 //
 // Env: PUBLIC_BASE_URL (raw URL of this repo's default branch, e.g. https://raw.githubusercontent.com/owner/jurvia-social/main)
 //      IG_USER_ID, IG_ACCESS_TOKEN, IG_API_BASE (default https://graph.instagram.com/v23.0)
-//      LINKEDIN_ORG_ID, LINKEDIN_ACCESS_TOKEN, LINKEDIN_VERSION (default: two months ago, YYYYMM)
+//      LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_ID (optional: company page; without it the token owner's profile),
+//      LINKEDIN_VERSION (default: two months ago, YYYYMM)
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { loadPosts, loadState, saveState, slideFiles, todayIstanbul, buildLink, toLittleText } from './lib.mjs';
@@ -22,7 +23,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const platforms = {
   instagram: Boolean(env.IG_USER_ID && env.IG_ACCESS_TOKEN),
-  linkedin: Boolean(env.LINKEDIN_ORG_ID && env.LINKEDIN_ACCESS_TOKEN),
+  // With LINKEDIN_ORG_ID posts go to the company page, otherwise to the token owner's personal profile.
+  linkedin: Boolean(env.LINKEDIN_ACCESS_TOKEN),
 };
 
 async function call(url, init = {}, what = url) {
@@ -72,8 +74,15 @@ function linkedinVersion() {
   return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
 }
 const LI_BASE = (env.LINKEDIN_API_BASE ?? 'https://api.linkedin.com/rest').replace(/\/$/, '');
+async function linkedinAuthor() {
+  if (env.LINKEDIN_ORG_ID) return `urn:li:organization:${env.LINKEDIN_ORG_ID}`;
+  const { body } = await call(`${LI_BASE.replace(/\/rest$/, '')}/v2/userinfo`, {
+    headers: { Authorization: `Bearer ${env.LINKEDIN_ACCESS_TOKEN}` } }, 'linkedin userinfo');
+  if (!body.sub) throw new Error('linkedin userinfo returned no member id (token needs openid scope)');
+  return `urn:li:person:${body.sub}`;
+}
 async function publishLinkedIn(post, imagePaths, link) {
-  const owner = `urn:li:organization:${env.LINKEDIN_ORG_ID}`;
+  const owner = await linkedinAuthor();
   const headers = {
     Authorization: `Bearer ${env.LINKEDIN_ACCESS_TOKEN}`,
     'LinkedIn-Version': linkedinVersion(),
@@ -125,7 +134,8 @@ async function checkCredentials() {
     try {
       const { body } = await call(`${LI_BASE.replace(/\/rest$/, '')}/v2/userinfo`, {
         headers: { Authorization: `Bearer ${env.LINKEDIN_ACCESS_TOKEN}` } }, 'linkedin token');
-      console.log(`✓ linkedin: token valid (${body.name ?? 'member'}), organization ${env.LINKEDIN_ORG_ID}`);
+      const target = env.LINKEDIN_ORG_ID ? `company page ${env.LINKEDIN_ORG_ID}` : `personal profile urn:li:person:${body.sub}`;
+      console.log(`✓ linkedin: token valid (${body.name ?? 'member'}), posts go to ${target}`);
     } catch (e) { ok = false; console.error(`✗ linkedin: ${e.message}`); }
   } else console.log('- linkedin: no credentials');
   return ok;
