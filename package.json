@@ -1,0 +1,14 @@
+{
+  "name": "jurvia-social",
+  "private": true,
+  "type": "module",
+  "description": "Jurvia otomatik sosyal medya kuyruğu: üretim, denetim ve yayın",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "render": "node tools/render.mjs",
+    "lint": "node tools/lint.mjs --images",
+    "publish:dry": "node tools/publish.mjs --dry-run",
+    "publish": "node tools/publish.mjs",
+    "test": "node --test tools/*.test.mjs"
+  }
+}

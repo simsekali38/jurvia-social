@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-24-takvim-hazirlik",
+  "publish_on": "2026-11-24",
+  "topic": "takvim",
+  "utm_content": "takvim_hazirlik",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "Jurvia takvim",
+      "headline": "Duruşma bir tarih,\n*hazırlık ayrı bir iş.*",
+      "steps": [
+        { "title": "Etkinliği oluşturun", "text": "Başlangıç ve bitişi belirleyin, ilgili dosyaya bağlayın." },
+        { "title": "Hazırlığı ayırın", "text": "Yapılacak işi, sorumlusunu ve kendi son tarihini tanımlayın." },
+        { "title": "Değişikliği izleyin", "text": "Tarih değişirse bağlı işleri tek yerden gözden geçirin." }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Duruşma takvimde bir gün olarak görünür. Ama asıl iş, o günden önceki hazırlıktır.\n\nJurvia takviminde etkinliğin öncesindeki hazırlığı ayrı bir görev olarak planlarsınız: ne yapılacak, kim yapacak, ne zamana kadar. Etkinliğin tarihi değişirse ona bağlı işleri aynı ekrandan gözden geçirirsiniz.\n\nGün, hafta, ay ve gündem görünümleriyle haftanızın tamamını görün; çakışan kayıtları fark edin.\n\nLink profilde.\n\n#avukat #hukukbürosu #avukattakvimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir duruşma takvimde tek bir gün olarak görünür. Oysa işin büyük kısmı o günden önce yapılır.\n\nJurvia takviminde etkinlik ile hazırlık birbirinden ayrıdır:\n\n1. Etkinliği oluşturur, ilgili dosyaya bağlarsınız.\n2. Hazırlık işini ayrı bir görev olarak, sorumlusu ve kendi son tarihiyle tanımlarsınız.\n3. Etkinliğin tarihi değişirse bağlı işleri tek yerden gözden geçirirsiniz.\n\nGün, hafta, ay ve gündem görünümleri, çakışan kayıtları görmeyi kolaylaştırır.\n\nTakvim özelliğini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-27-belge-surumleri",
+  "publish_on": "2026-11-27",
+  "topic": "belgeler",
+  "utm_content": "belge_surum",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "statement",
+      "eyebrow": "Belge arşivi",
+      "headline": "Hangi sürüm son hali?\n*Dosyanız biliyor.*",
+      "body": "Jurvia'da belgeler dosyayla bağlantılı durur. Sürümler dosyanızla birlikte izlenir; orijinal içerik ve belge kimliği korunur."
+    },
+    {
+      "layout": "list",
+      "eyebrow": "Nasıl çalışır?",
+      "headline": "Orijinal korunur,\n*sürümler izlenir.*",
+      "items": [
+        {
+          "title": "DOCX ile çalışın",
+          "text": "Belgeyi düzenleyin, kaydetme tamamlanana kadar durumunu görün."
+        },
+        {
+          "title": "Sürümlere dönün",
+          "text": "Önceki sürümler dosyanın içinde, aynı yerde durur."
+        },
+        {
+          "title": "Çıktıyı kontrol edin",
+          "text": "İhtiyacınıza göre DOCX veya PDF çıktısı alın."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "\"Son hali hangisiydi?\" sorusu, belgeler e-posta eklerinde ve masaüstü klasörlerinde dağıldığında başlar.\n\nJurvia'da belgeler ilgili dosyanın içinde durur. Sürümler dosyayla birlikte izlenir; orijinal içerik ve belge kimliği korunur. DOCX ile çalışır, ihtiyacınıza göre DOCX veya PDF çıktısı alırsınız.\n\nKaydırın, nasıl çalıştığını görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #belgeyönetimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "\"Son hali hangisiydi?\"\n\nBu soru, belgeler e-posta eklerine ve masaüstü klasörlerine dağıldığında ortaya çıkar.\n\nJurvia'da belgeler ilgili dosyanın içinde tutulur:\n\n• Belge sürümleri dosyayla birlikte izlenir.\n• Orijinal içerik ve belge kimliği korunur.\n• DOCX ile çalışır, ihtiyaca göre DOCX veya PDF çıktısı alırsınız.\n\nBelge arşivi ve sürüm kontrolünü inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

@@ -1,0 +1,59 @@
+name: Publish
+
+on:
+  schedule:
+    # Tuesday and Friday 10:10 Europe/Istanbul (07:10 UTC). GitHub may start scheduled runs a few minutes late.
+    - cron: '10 7 * * 2,5'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only print what would be published'
+        type: boolean
+        default: true
+      post_id:
+        description: 'Publish this post id instead of the oldest due one (optional)'
+        type: string
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+      - run: node tools/lint.mjs --images
+      - name: Publish due post
+        env:
+          PUBLIC_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          POST_ID: ${{ inputs.post_id }}
+        run: |
+          args=()
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          [ -n "$POST_ID" ] && args+=(--id "$POST_ID")
+          node tools/publish.mjs "${args[@]}"
+      - name: Save publish state
+        if: always()
+        run: |
+          git diff --quiet -- state/ && exit 0
+          git config user.name "jurvia-social-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/
+          git commit -m "Record published post"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
