@@ -53,7 +53,7 @@ Depo → **Settings → Secrets and variables → Actions → New repository sec
 
 ### 4. Deneme
 
-**Actions → Publish → Run workflow** (`dry_run` işaretli) yayınlanacak gönderiyi ve linkleri gösterir, hiçbir şey paylaşmaz. İlk gerçek yayından sonra Instagram ve LinkedIn'de gönderiyi bir kez kontrol edin (özellikle LinkedIn'de linkin tıklanabilir olduğunu).
+**Actions → Publish → Run workflow**: `check` anahtarları salt okuma çağrısıyla doğrular, `dry-run` sıradaki gönderiyi ve linkleri gösterir; ikisi de hiçbir şey paylaşmaz. `publish` gerçekten yayınlar. İlk gerçek yayından sonra Instagram ve LinkedIn'de gönderiyi bir kez kontrol edin (özellikle LinkedIn'de linkin tıklanabilir olduğunu).
 
 ## Yerel komutlar
 

@@ -1,6 +1,7 @@
 // Publishes the oldest due post (publish_on <= today, Europe/Istanbul) to Instagram and LinkedIn.
 // One post per run. Platforms without credentials are skipped and reported.
-// Usage: node tools/publish.mjs [--dry-run] [--id <post-id>]
+// Usage: node tools/publish.mjs [--dry-run | --check] [--id <post-id>]
+//   --check verifies the configured credentials with read-only calls and publishes nothing.
 //
 // Env: PUBLIC_BASE_URL (raw URL of this repo's default branch, e.g. https://raw.githubusercontent.com/owner/jurvia-social/main)
 //      IG_USER_ID, IG_ACCESS_TOKEN, IG_API_BASE (default https://graph.instagram.com/v23.0)
@@ -10,6 +11,7 @@ import { join } from 'node:path';
 import { loadPosts, loadState, saveState, slideFiles, todayIstanbul, buildLink, toLittleText } from './lib.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
+const checkOnly = process.argv.includes('--check');
 const idArg = process.argv.includes('--id') ? process.argv[process.argv.indexOf('--id') + 1] : null;
 const env = process.env;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -104,7 +106,32 @@ async function publishLinkedIn(post, imagePaths, link) {
   return { post_urn: h.get('x-restli-id') };
 }
 
+// ---------- credential check (read-only) ----------
+async function checkCredentials() {
+  let ok = true;
+  if (platforms.instagram) {
+    const base = (env.IG_API_BASE ?? 'https://graph.instagram.com/v23.0').replace(/\/$/, '');
+    try {
+      const q = new URLSearchParams({ fields: 'user_id,username', access_token: env.IG_ACCESS_TOKEN });
+      const { body } = await call(`${base}/me?${q}`, {}, 'instagram /me');
+      const match = String(body.user_id ?? body.id) === String(env.IG_USER_ID);
+      console.log(`${match ? '✓' : '✗'} instagram: @${body.username} (user_id ${body.user_id ?? body.id}${match ? '' : `, IG_USER_ID is ${env.IG_USER_ID}`})`);
+      if (!match) ok = false;
+    } catch (e) { ok = false; console.error(`✗ instagram: ${e.message}`); }
+  } else console.log('- instagram: no credentials');
+  if (platforms.linkedin) {
+    try {
+      const { body } = await call(`${LI_BASE.replace(/\/rest$/, '')}/v2/userinfo`, {
+        headers: { Authorization: `Bearer ${env.LINKEDIN_ACCESS_TOKEN}` } }, 'linkedin token');
+      console.log(`✓ linkedin: token valid (${body.name ?? 'member'}), organization ${env.LINKEDIN_ORG_ID}`);
+    } catch (e) { ok = false; console.error(`✗ linkedin: ${e.message}`); }
+  } else console.log('- linkedin: no credentials');
+  return ok;
+}
+
 // ---------- main ----------
+if (checkOnly) process.exit((await checkCredentials()) ? 0 : 1);
+
 const state = loadState();
 const today = todayIstanbul();
 const posts = loadPosts();

@@ -6,10 +6,11 @@ on:
     - cron: '10 7 * * 2,5'
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: 'Only print what would be published'
-        type: boolean
-        default: true
+      mode:
+        description: 'check = verify credentials only, dry-run = show next post, publish = really publish'
+        type: choice
+        options: [check, dry-run, publish]
+        default: check
       post_id:
         description: 'Publish this post id instead of the oldest due one (optional)'
         type: string
@@ -40,11 +41,12 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'publish' }}
           POST_ID: ${{ inputs.post_id }}
         run: |
           args=()
-          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          [ "$MODE" = "dry-run" ] && args+=(--dry-run)
+          [ "$MODE" = "check" ] && args+=(--check)
           [ -n "$POST_ID" ] && args+=(--id "$POST_ID")
           node tools/publish.mjs "${args[@]}"
       - name: Save publish state
