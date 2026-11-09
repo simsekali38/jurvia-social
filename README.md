@@ -32,12 +32,14 @@ Depo **herkese açık** olmalı: Instagram, görselleri herkese açık bir adres
 
 Uygulama geliştirme modunda kalabilir; yalnız kendi hesabınıza gönderi atılır.
 
-### 2. LinkedIn (isteğe bağlı, onay gerektirir)
+### 2. LinkedIn (kişisel profil)
 
-1. https://www.linkedin.com/developers/apps → **Create app** → şirket sayfası olarak **Jurvia** seçin, sayfa yöneticisi doğrulamasını tamamlayın.
-2. **Products** → **Community Management API** için başvurun. LinkedIn bu ürünü şirket doğrulamasıyla açıyor; onay gelmezse LinkedIn adımı atlanır, Instagram yayını etkilenmez.
-3. Onaydan sonra **Auth → OAuth 2.0 tools** ile `w_organization_social` kapsamlı anahtar üretin. Şirket kimliği, sayfa yönetici adresindeki sayıdır (`linkedin.com/company/<kimlik>/admin`).
-4. LinkedIn anahtarı 60 gün geçerlidir; süresi dolunca yayın adımı hata verir ve GitHub size e-posta atar. Yeni anahtarı aynı yerden üretip gizli değeri güncelleyin.
+Şirket sayfası için gereken Community Management API, aktif bir tüzel kişilik istiyor; şimdilik gönderiler **kişisel profilde** paylaşılır (`LINKEDIN_ORG_ID` boş bırakılır).
+
+1. https://www.linkedin.com/developers/apps → **Jurvia** uygulaması → **Products**: "Share on LinkedIn" ve "Sign In with LinkedIn using OpenID Connect" ekli olmalı.
+2. https://www.linkedin.com/developers/tools/oauth/token-generator → uygulama **Jurvia** → kapsamlar `openid`, `profile`, `w_member_social` → **Request access token** → izin ver → anahtarı kopyala.
+3. Anahtar 60 gün geçerlidir. Haftalık "Check and refresh tokens" işi geçersiz olunca hata verir ve GitHub e-posta atar; aynı adımlarla yenisini üretip `LINKEDIN_ACCESS_TOKEN` değerini güncelleyin.
+4. Şirket kurulduğunda: "Jurvia Social" uygulamasından Community Management API formunu doldurun, onaydan sonra `LINKEDIN_ORG_ID` ekleyin; gönderiler şirket sayfasına geçer.
 
 ### 3. GitHub gizli değerleri
 
@@ -47,8 +49,8 @@ Depo → **Settings → Secrets and variables → Actions → New repository sec
 |---|---|
 | `IG_USER_ID` | Instagram kullanıcı kimliği |
 | `IG_ACCESS_TOKEN` | Instagram erişim anahtarı |
-| `SECRETS_PAT` | Bu depo için fine-grained token, izin: **Secrets: Read and write** (Instagram anahtarını haftalık yenilemek için) |
-| `LINKEDIN_ORG_ID` | (isteğe bağlı) LinkedIn şirket kimliği |
+| `SECRETS_PAT` | (yalnız IG... ile başlayan Instagram anahtarları için) fine-grained token, izin: **Secrets: Read and write** |
+| `LINKEDIN_ORG_ID` | (şimdilik boş) LinkedIn şirket kimliği; boşsa kişisel profile paylaşılır |
 | `LINKEDIN_ACCESS_TOKEN` | (isteğe bağlı) LinkedIn erişim anahtarı |
 
 ### 4. Deneme
