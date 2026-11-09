@@ -46,4 +46,5 @@ Bu depo Jurvia'nın Instagram ve LinkedIn gönderi kuyruğudur. GitHub Actions `
   "linkedin": { "text": "... {link} ..." }
 }
 ```
+`image` düzeni yalnız elle hazırlanmış görseller içindir (slide-N.jpg hazır gelir); yeni gönderilerde kullanma.
 Başlıkta `*...*` serif vurgu, `\n` satır sonu olur. Başlık en fazla 70 karakter, eyebrow en fazla 32.

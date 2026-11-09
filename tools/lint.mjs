@@ -52,6 +52,7 @@ for (const [i, post] of posts.entries()) {
     else if (s.layout === 'steps') { if (s.steps?.length !== 3) err(post, `${at}: steps needs exactly 3`); }
     else if (s.layout === 'grid') { if (s.cards?.length !== 4) err(post, `${at}: grid needs exactly 4 cards`); }
     else if (s.layout === 'list') { if (!(s.items?.length >= 2 && s.items.length <= 3)) err(post, `${at}: list needs 2-3 items`); }
+    else if (s.layout === 'image') { /* pre-rendered slide-N.jpg; headline is its text for checks */ }
     else err(post, `${at}: unknown layout "${s.layout}"`);
     for (const x of [...(s.steps ?? []), ...(s.cards ?? []), ...(s.items ?? [])]) {
       if (!x.title || len(x.title) > 34 || !x.text || len(x.text) > 90) err(post, `${at}: item title max 34, text max 90 chars`);

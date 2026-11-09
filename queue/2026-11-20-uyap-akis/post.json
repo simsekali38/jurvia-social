@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-20-uyap-akis",
+  "publish_on": "2026-11-20",
+  "topic": "uyap-evrak",
+  "utm_content": "uyap_akis",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "image",
+      "headline": "UYAP → Jurvia. Evrakları indirip yeniden yüklemeyin."
+    }
+  ],
+  "instagram": {
+    "caption": "Evrakları indirip yeniden yüklemeyin.\n\nUYAP'ta dosyayı açın, eklenti açtığınız dosyayı tanır. Evrakları seçin: Jurvia'da zaten bulunanlar ayrıca gösterilir, kalanlar eşleşen dosyaya aktarılır. Eşleşen dosya yoksa yenisi açılır. İsterseniz evrakları ZIP olarak da indirebilirsiniz.\n\nLink profilde.\n\n#avukat #UYAP #hukukbürosu #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Evrakları indirip yeniden yüklemeyin.\n\nJurvia · UYAP + UETS Chrome eklentisiyle:\n\n1. UYAP'ta dosyayı açarsınız, eklenti açtığınız dosyayı tanır.\n2. Evrakları seçersiniz; Jurvia'da zaten bulunanlar ayrıca gösterilir.\n3. Kalanlar eşleşen Jurvia dosyasına aktarılır. Eşleşen dosya yoksa yenisi açılır. İsterseniz ZIP olarak da indirebilirsiniz.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nEklentiyi inceleyin: {link}\n\n#avukat #UYAP #hukukteknolojisi"
+  }
+}

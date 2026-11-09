@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-13-gizlilik",
+  "publish_on": "2026-11-13",
+  "topic": "gizlilik",
+  "utm_content": "gizlilik",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "image",
+      "headline": "Eklentimiz neyi okumaz?"
+    },
+    {
+      "layout": "image",
+      "headline": "UYAP ve UETS şifreniz, e-imza PIN’iniz, çerezleriniz okunmaz."
+    },
+    {
+      "layout": "image",
+      "headline": "TC kimlik ve vergi numaraları Jurvia’ya gönderilmez."
+    },
+    {
+      "layout": "image",
+      "headline": "Aktarım yalnız siz başlattığınızda."
+    }
+  ],
+  "instagram": {
+    "caption": "UYAP ve UETS verisine dokunan bir araç kullanmadan önce sorulacak ilk soru: neyi okuyor, nereye gönderiyor?\n\nJurvia eklentisi şifrenizi, e-imza PIN'inizi ve çerezlerinizi okumaz. Tarafların TC kimlik ve vergi numaraları Jurvia'ya gönderilmez. Aktarım yalnız siz başlattığınızda yapılır.\n\nKaydırın, dört maddede görün. Ayrıntılı gizlilik metni sitemizde.\n\nLink profilde.\n\n#avukat #UYAP #UETS #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Jurvia eklentisi neyi okumaz?\n\nUYAP ve UETS verisine dokunan bir araç kullanmadan önce sorulacak ilk soru: neyi okuyor, nereye gönderiyor?\n\n• Şifrenizi, e-imza PIN'inizi ve çerezlerinizi okumaz.\n• Tarafların TC kimlik ve vergi numaraları Jurvia'ya gönderilmez.\n• Aktarım yalnız siz başlattığınızda yapılır.\n• Eklentide reklam, analiz aracı veya uzaktan yüklenen kod yoktur.\n\nAyrıntılı gizlilik metni: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

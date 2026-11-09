@@ -97,6 +97,10 @@ const browser = await chromium.launch();
 try {
   for (const post of targets) {
     for (const [i, slide] of post.slides.entries()) {
+      if (slide.layout === 'image') {
+        if (!existsSync(join(post.dir, `slide-${i + 1}.jpg`))) throw new Error(`${post.id} slide ${i + 1}: image layout needs slide-${i + 1}.jpg`);
+        continue;
+      }
       const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
       await page.setContent(slideHtml(post, slide, i), { waitUntil: 'load' });
       await page.evaluate(() => document.fonts.ready);
