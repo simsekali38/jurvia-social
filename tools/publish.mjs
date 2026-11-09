@@ -13,7 +13,11 @@ import { loadPosts, loadState, saveState, slideFiles, todayIstanbul, buildLink, 
 const dryRun = process.argv.includes('--dry-run');
 const checkOnly = process.argv.includes('--check');
 const idArg = process.argv.includes('--id') ? process.argv[process.argv.indexOf('--id') + 1] : null;
-const env = process.env;
+const env = { ...process.env };
+for (const k of ['IG_USER_ID', 'IG_ACCESS_TOKEN', 'LINKEDIN_ORG_ID', 'LINKEDIN_ACCESS_TOKEN']) if (env[k]) env[k] = env[k].trim();
+// Instagram-login tokens (IG...) use graph.instagram.com; Facebook/business tokens (EAA...) use graph.facebook.com.
+const igBase = () => (env.IG_API_BASE
+  ?? (env.IG_ACCESS_TOKEN?.startsWith('EAA') ? 'https://graph.facebook.com/v23.0' : 'https://graph.instagram.com/v23.0')).replace(/\/$/, '');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const platforms = {
@@ -34,7 +38,7 @@ async function call(url, init = {}, what = url) {
 
 // ---------- Instagram (Instagram API with Instagram Login, content publishing) ----------
 async function publishInstagram(post, imageUrls) {
-  const base = (env.IG_API_BASE ?? 'https://graph.instagram.com/v23.0').replace(/\/$/, '');
+  const base = igBase();
   const ig = env.IG_USER_ID;
   const form = (o) => new URLSearchParams({ ...o, access_token: env.IG_ACCESS_TOKEN });
   const create = async (params) => (await call(`${base}/${ig}/media`, { method: 'POST', body: form(params) }, 'instagram create container')).body.id;
@@ -110,13 +114,11 @@ async function publishLinkedIn(post, imagePaths, link) {
 async function checkCredentials() {
   let ok = true;
   if (platforms.instagram) {
-    const base = (env.IG_API_BASE ?? 'https://graph.instagram.com/v23.0').replace(/\/$/, '');
+    const base = igBase();
     try {
-      const q = new URLSearchParams({ fields: 'user_id,username', access_token: env.IG_ACCESS_TOKEN });
-      const { body } = await call(`${base}/me?${q}`, {}, 'instagram /me');
-      const match = String(body.user_id ?? body.id) === String(env.IG_USER_ID);
-      console.log(`${match ? '✓' : '✗'} instagram: @${body.username} (user_id ${body.user_id ?? body.id}${match ? '' : `, IG_USER_ID is ${env.IG_USER_ID}`})`);
-      if (!match) ok = false;
+      const q = new URLSearchParams({ fields: 'id,username', access_token: env.IG_ACCESS_TOKEN });
+      const { body } = await call(`${base}/${env.IG_USER_ID}?${q}`, {}, `instagram account (${new URL(base).host})`);
+      console.log(`✓ instagram: @${body.username} (id ${body.id}) via ${new URL(base).host}`);
     } catch (e) { ok = false; console.error(`✗ instagram: ${e.message}`); }
   } else console.log('- instagram: no credentials');
   if (platforms.linkedin) {
