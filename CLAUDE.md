@@ -1,15 +1,15 @@
 # jurvia-social: haftalık gönderi üretimi
 
-Bu depo Jurvia'nın Instagram ve LinkedIn gönderi kuyruğudur. GitHub Actions `queue/` içindeki gönderileri Salı ve Cuma günleri yayınlar (`.github/workflows/publish.yml`). Senin işin kuyruğu doldurmak.
+Bu depo Jurvia'nın Instagram ve LinkedIn gönderi kuyruğudur. GitHub Actions `queue/` içindeki gönderileri her gün birer tane yayınlar (`.github/workflows/publish.yml`). Senin işin kuyruğu doldurmak.
 
 ## Her çalıştırmada
 
 1. `main` dalını güncelle. `content/urun-bilgileri.md`, `content/kurallar.md`, `state/published.json` ve `queue/` içindeki son 8 gönderiyi oku.
-2. Bugünden (Europe/Istanbul) sonraki, kuyrukta henüz gönderisi olmayan **ilk iki** Salı/Cuma tarihini bul. Bugünden sonra zaten 4 veya daha fazla gönderi bekliyorsa hiçbir şey üretme.
+2. Bugünden (Europe/Istanbul) sonraki, kuyrukta henüz gönderisi olmayan **ilk yedi** günü bul. Bugünden sonra zaten 10 veya daha fazla gönderi bekliyorsa hiçbir şey üretme.
 3. Her tarih için bir gönderi yaz: `queue/<YYYY-MM-DD>-<kisa-slug>/post.json` (şema: aşağıda ve mevcut gönderiler).
    - Konu `urun-bilgileri.md` içinde `status: mevcut` olanlardan seçilir. Son iki gönderinin konusunu kullanma; en az kullanılmış konuyu tercih et.
    - Yalnız o konunun maddelerinde yazanları anlat. Madde olmayan özellik, rakam, müşteri, tarih, fiyat **uydurma**. Hukuki terim, mevzuat, süre hesabı, tavsiye yazma.
-   - Düzeni değiştir: son gönderiden farklı `layout` ve `theme` (dark/light sırayla). Ayda en az bir kaydırmalı (2–4 slayt) gönderi olsun.
+   - Düzeni değiştir: son gönderiden farklı `layout` ve `theme` (dark/light sırayla). Haftada en az bir kaydırmalı (2–4 slayt) gönderi olsun.
    - Instagram metni 300–900 karakter, link yok, sonunda "Link profilde." ve 3–5 hashtag. LinkedIn metni 300–1300 karakter, `{link}` bir kez, en fazla 3 hashtag.
 4. Çalıştır ve her şey geçene kadar düzelt:
    ```
@@ -32,7 +32,7 @@ Bu depo Jurvia'nın Instagram ve LinkedIn gönderi kuyruğudur. GitHub Actions `
 ```json
 {
   "id": "2026-11-24-takvim-hazirlik",          // klasör adıyla aynı
-  "publish_on": "2026-11-24",                   // Salı veya Cuma
+  "publish_on": "2026-11-24",                   // her güne bir gönderi
   "topic": "takvim",                            // urun-bilgileri.md konu kimliği
   "utm_content": "takvim_hazirlik",            // [a-z0-9_]
   "theme": "dark",                              // dark | light (slayt bazında da verilebilir)

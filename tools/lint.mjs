@@ -39,9 +39,9 @@ const seenHeadlines = new Map();
 for (const [i, post] of posts.entries()) {
   if (!/^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$/.test(post.id ?? '') || post.id !== post.folder) err(post, 'id must equal folder name, format YYYY-MM-DD-slug');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(post.publish_on ?? '') || !post.id?.startsWith(post.publish_on)) err(post, 'publish_on must be YYYY-MM-DD and match id prefix');
-  else if (![2, 5].includes(new Date(post.publish_on + 'T12:00:00Z').getUTCDay())) err(post, 'publish_on must be a Tuesday or Friday');
   if (topics[post.topic]?.status !== 'mevcut') err(post, `topic "${post.topic}" is not a "mevcut" topic in urun-bilgileri.md`);
   if (!/^[a-z0-9_]{3,40}$/.test(post.utm_content ?? '')) err(post, 'utm_content must be 3-40 chars [a-z0-9_]');
+  if (i > 0 && posts[i - 1].publish_on === post.publish_on) err(post, `two posts on ${post.publish_on}; one post per day`);
   if (!Array.isArray(post.slides) || post.slides.length < 1 || post.slides.length > 6) err(post, 'slides: 1-6 required');
 
   for (const [n, s] of (post.slides ?? []).entries()) {

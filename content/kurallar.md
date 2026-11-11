@@ -11,4 +11,4 @@ Bu kurallar `tools/lint.mjs` tarafından da denetlenir. Denetimden geçmeyen gö
 7. **Instagram.** Açıklama 300–900 karakter, link yazılmaz, sonda "Link profilde." ve 3–5 hashtag.
 8. **LinkedIn.** Metin 300–1300 karakter, `{link}` yer tutucusu metnin içinde (UTM'li link yayın sırasında eklenir), en fazla 3 hashtag.
 9. **Tekrar yok.** Son iki gönderinin konusu tekrar edilmez; daha önce kullanılmış başlık tekrar kullanılmaz.
-10. **Takvim.** Haftada 2 gönderi: Salı ve Cuma. Kuyrukta her zaman en az 2 gönderi bekler.
+10. **Takvim.** Her gün bir gönderi. Kuyrukta her zaman en az 7 günlük gönderi bekler.

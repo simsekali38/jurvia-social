@@ -4,9 +4,9 @@ Jurvia için otomatik Instagram ve LinkedIn gönderileri.
 
 | Ne | Nerede | Ne zaman |
 |---|---|---|
-| Gönderi üretimi (metin + görsel) | Claude zamanlanmış görevi, talimatlar `CLAUDE.md` | Her Pazar 20:37 (TR), sonraki Salı ve Cuma için |
+| Gönderi üretimi (metin + görsel) | Claude zamanlanmış görevi, talimatlar `CLAUDE.md` | Her Pazar 20:37 (TR), sonraki 7 gün için (10+ gönderi bekliyorsa atlar) |
 | Kural denetimi | `tools/lint.mjs` (+ GitHub Actions `check.yml`) | Her üretimde ve her push'ta |
-| Yayın | GitHub Actions `publish.yml` → `tools/publish.mjs` | Salı ve Cuma 10:10 (TR), çalıştırma başına 1 gönderi |
+| Yayın | GitHub Actions `publish.yml` → `tools/publish.mjs` | Her gün 10:10 (TR), yedekler 12:40 ve 15:10; çalıştırma başına 1 gönderi |
 | Instagram anahtarı yenileme | `refresh-instagram-token.yml` | Her Pazartesi |
 
 İçeriğin tek kaynağı `content/urun-bilgileri.md`, kurallar `content/kurallar.md`. Ürüne yeni bir özellik geldiğinde ilgili konuyu bu dosyaya ekleyin; gönderiler yalnız buradaki bilgilerden üretilir.
