@@ -1,0 +1,38 @@
+{
+  "id": "2026-12-03-takvim-gorunumleri",
+  "publish_on": "2026-12-03",
+  "topic": "takvim",
+  "utm_content": "takvim_gorunumleri",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Jurvia takvim",
+      "headline": "Gününüzü, haftanızı,\n*ayınızı görün.*",
+      "cards": [
+        {
+          "title": "Gün",
+          "text": "O günün duruşma ve görüşmeleri bir arada."
+        },
+        {
+          "title": "Hafta",
+          "text": "Haftanın yoğunluğunu ve çakışan kayıtları fark edin."
+        },
+        {
+          "title": "Ay",
+          "text": "Ayın genel görünümüyle önünüzü planlayın."
+        },
+        {
+          "title": "Gündem",
+          "text": "Yaklaşan kayıtları liste halinde izleyin."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bazen yalnız bugüne, bazen bütün aya bakmanız gerekir.\n\nJurvia takviminde gün, hafta, ay ve gündem görünümleri arasında geçersiniz. Duruşmalar ve görüşmeler takvimde durur; çakışan kayıtlar fark edilir.\n\nEtkinliğin öncesindeki hazırlık işi ise ayrı bir görev olarak, kendi son tarihiyle planlanır.\n\nLink profilde.\n\n#avukat #hukukbürosu #avukattakvimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bazen yalnız bugüne, bazen bütün aya bakmanız gerekir.\n\nJurvia takviminde gün, hafta, ay ve gündem görünümleri arasında geçersiniz. Duruşmalar ve görüşmeler takvimde durur; çakışan kayıtlar fark edilir.\n\nEtkinliğin öncesindeki hazırlık işi ise ayrı bir görev olarak, kendi son tarihiyle planlanır.\n\nTakvim özelliğini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

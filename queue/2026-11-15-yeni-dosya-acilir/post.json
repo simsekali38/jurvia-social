@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-15-yeni-dosya-acilir",
+  "publish_on": "2026-11-15",
+  "topic": "uyap-evrak",
+  "utm_content": "yeni_dosya_acilir",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "statement",
+      "eyebrow": "UYAP + UETS eklentisi",
+      "headline": "Eşleşen dosya yok mu?\n*Yenisi açılır.*",
+      "body": "Eklenti UYAP'ta açtığınız dosyayı tanır. Jurvia'da eşleşen bir dosya yoksa aktarım sırasında yeni dosya açılır. İsterseniz evrakları ZIP olarak da indirebilirsiniz."
+    }
+  ],
+  "instagram": {
+    "caption": "UYAP'ta açtığınız dosya Jurvia'da henüz yoksa ne olur?\n\nJurvia · UYAP + UETS eklentisi, açtığınız dosyayı tanır. Eşleşen bir Jurvia dosyası varsa seçtiğiniz evraklar oraya aktarılır; yoksa yeni dosya açılır. İsterseniz evrakları ZIP olarak da indirebilirsiniz.\n\nAktarım yalnız siz başlattığınızda yapılır; Jurvia kayıtları UYAP'tan kendiliğinden değişmez.\n\nLink profilde.\n\n#avukat #hukukbürosu #uyap #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "UYAP'ta açtığınız dosya Jurvia'da henüz yoksa ne olur?\n\nJurvia · UYAP + UETS eklentisi, açtığınız dosyayı tanır. Eşleşen bir Jurvia dosyası varsa seçtiğiniz evraklar oraya aktarılır; yoksa yeni dosya açılır. İsterseniz evrakları ZIP olarak da indirebilirsiniz.\n\nAktarım yalnız siz başlattığınızda yapılır; Jurvia kayıtları UYAP'tan kendiliğinden değişmez.\n\nEklentiyi inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

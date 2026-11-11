@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-22-dosyalar-gorunum",
+  "publish_on": "2026-11-22",
+  "topic": "dosyalar",
+  "utm_content": "dosyalar_gorunum",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Dosyalar sayfası",
+      "headline": "Dosyalarınızı\n*istediğiniz gibi görün.*",
+      "cards": [
+        {
+          "title": "Tablo görünümü",
+          "text": "Çok sayıda dosyayı satır satır inceleyin."
+        },
+        {
+          "title": "Kart görünümü",
+          "text": "Dosyaları kartlar halinde bir bakışta görün."
+        },
+        {
+          "title": "Gruplama",
+          "text": "Dosyaları gruplayarak düzenleyin."
+        },
+        {
+          "title": "Dosya ayrıntısı",
+          "text": "Takvim, görev, evrak ve tebligat aynı yerde."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Kimi zaman bütün dosyaları bir tabloda görmek, kimi zaman kartlarla göz gezdirmek istersiniz.\n\nJurvia'nın Dosyalar sayfasında tablo ve kart görünümü arasında geçer, dosyaları gruplayabilirsiniz. Bir dosyayı açtığınızda takvimi, görevleri, evrakları ve tebligatları aynı yerde görürsünüz.\n\nGörünümü siz seçin.\n\nLink profilde.\n\n#avukat #hukukbürosu #dosyatakibi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Kimi zaman bütün dosyaları bir tabloda görmek, kimi zaman kartlarla göz gezdirmek istersiniz.\n\nJurvia'nın Dosyalar sayfasında tablo ve kart görünümü arasında geçer, dosyaları gruplayabilirsiniz. Bir dosyayı açtığınızda takvimi, görevleri, evrakları ve tebligatları aynı yerde görürsünüz.\n\nGörünümü siz seçin.\n\nDosyalar sayfasını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

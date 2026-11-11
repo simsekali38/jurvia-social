@@ -1,0 +1,38 @@
+{
+  "id": "2026-12-05-tebligat-dosyada",
+  "publish_on": "2026-12-05",
+  "topic": "uets-tebligat",
+  "utm_content": "tebligat_dosyada",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "UETS e-tebligat",
+      "headline": "Tebligat ve ekleri\n*dosyanın içinde.*",
+      "cards": [
+        {
+          "title": "Listeleme",
+          "text": "UETS gelen kutusundaki e-tebligatlar listelenir."
+        },
+        {
+          "title": "Aktarım durumu",
+          "text": "Hangisinin aktarıldığı görünür."
+        },
+        {
+          "title": "Bağlama",
+          "text": "Üst yazı, ekler ve tebliğ olayları dosyaya bağlanır."
+        },
+        {
+          "title": "Eksik ek",
+          "text": "Eksik eki olan tebligatlar görülebilir."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "E-tebligat, ait olduğu dosyanın içinde durduğunda işe yarar.\n\nJurvia · UYAP + UETS eklentisi UETS gelen kutusundaki e-tebligatları listeler ve hangisinin aktarıldığını gösterir. Seçtiğiniz tebligatlar üst yazısı, ekleri ve tebliğ olaylarıyla eşleşen dosyaya bağlanır. Eksik eki olanları da görürsünüz.\n\nTebligat, ekleri ve olaylarıyla dosyanızda.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "E-tebligat, ait olduğu dosyanın içinde durduğunda işe yarar.\n\nJurvia · UYAP + UETS eklentisi UETS gelen kutusundaki e-tebligatları listeler ve hangisinin aktarıldığını gösterir. Seçtiğiniz tebligatlar üst yazısı, ekleri ve tebliğ olaylarıyla eşleşen dosyaya bağlanır. Eksik eki olanları da görürsünüz.\n\nTebligat, ekleri ve olaylarıyla dosyanızda.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

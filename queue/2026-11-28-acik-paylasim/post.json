@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-28-acik-paylasim",
+  "publish_on": "2026-11-28",
+  "topic": "ekip-erisim",
+  "utm_content": "acik_paylasim",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "list",
+      "eyebrow": "Ekip ve erişim",
+      "headline": "Kim neyi görür?\n*Siz belirlersiniz.*",
+      "items": [
+        {
+          "title": "Kişisel alanla başlayın",
+          "text": "Çalışmaya kendi kişisel çalışma alanınızla başlarsınız.",
+          "mark": "✓"
+        },
+        {
+          "title": "Açık paylaşım",
+          "text": "Dosya ve işlem yetkileri açık paylaşım ilkesiyle yönetilir.",
+          "mark": "✓"
+        },
+        {
+          "title": "Rol ve işlem bazlı",
+          "text": "Erişim, rol ve işlem bazında tanımlanır.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Büroda birden fazla kişi çalıştığında ilk soru şudur: kim hangi dosyayı görebilir?\n\nJurvia'da kişisel çalışma alanınızla başlarsınız. Dosya ve işlem yetkileri açık paylaşım ilkesiyle yönetilir; erişim rol ve işlem bazında tanımlanır. Kişisel alanlar birbirinden ayrıdır, belgeler özel belge depolamada tutulur.\n\nPaylaşım, siz açıkça paylaştığınızda başlar.\n\nLink profilde.\n\n#avukat #hukukbürosu #ekipçalışması #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Büroda birden fazla kişi çalıştığında ilk soru şudur: kim hangi dosyayı görebilir?\n\nJurvia'da kişisel çalışma alanınızla başlarsınız. Dosya ve işlem yetkileri açık paylaşım ilkesiyle yönetilir; erişim rol ve işlem bazında tanımlanır. Kişisel alanlar birbirinden ayrıdır, belgeler özel belge depolamada tutulur.\n\nPaylaşım, siz açıkça paylaştığınızda başlar.\n\nGüvenlik yaklaşımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

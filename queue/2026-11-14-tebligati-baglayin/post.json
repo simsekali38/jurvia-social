@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-14-tebligati-baglayin",
+  "publish_on": "2026-11-14",
+  "topic": "uets-tebligat",
+  "utm_content": "tebligati_baglayin",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "UETS e-tebligat",
+      "headline": "E-tebligatı\n*doğru dosyaya bağlayın.*",
+      "steps": [
+        {
+          "title": "Listeyi açın",
+          "text": "Eklenti UETS gelen kutunuzdaki tebligatları listeler."
+        },
+        {
+          "title": "Seçin",
+          "text": "Aktarılacak tebligatları siz seçersiniz."
+        },
+        {
+          "title": "Bağlayın",
+          "text": "Üst yazı, ekler ve tebliğ olaylarıyla dosyaya bağlanır."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bir e-tebligatı indirmek kolaydır; onu doğru dosyaya, ekleriyle birlikte yerleştirmek ayrı bir iştir.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutunuzdaki tebligatları listeler. Seçtiğiniz tebligatlar üst yazısı, ekleri ve tebliğ olaylarıyla eşleşen Jurvia dosyasına bağlanır.\n\nTebligat, ait olduğu dosyada durur.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir e-tebligatı indirmek kolaydır; onu doğru dosyaya, ekleriyle birlikte yerleştirmek ayrı bir iştir.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutunuzdaki tebligatları listeler. Seçtiğiniz tebligatlar üst yazısı, ekleri ve tebliğ olaylarıyla eşleşen Jurvia dosyasına bağlanır.\n\nTebligat, ait olduğu dosyada durur.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

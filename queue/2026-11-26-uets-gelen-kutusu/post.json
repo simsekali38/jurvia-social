@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-26-uets-gelen-kutusu",
+  "publish_on": "2026-11-26",
+  "topic": "uets-tebligat",
+  "utm_content": "uets_gelen_kutusu",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "list",
+      "eyebrow": "UETS e-tebligat",
+      "headline": "Hangi tebligat\n*aktarıldı, hangisi değil?*",
+      "items": [
+        {
+          "title": "Gelen kutusu listesi",
+          "text": "Eklenti UETS gelen kutusundaki e-tebligatları listeler.",
+          "mark": "✓"
+        },
+        {
+          "title": "Aktarım durumu",
+          "text": "Hangisinin Jurvia'ya aktarıldığı yanında görünür.",
+          "mark": "✓"
+        },
+        {
+          "title": "Eksik ekler",
+          "text": "Eki eksik olan tebligatlar ayrıca görülebilir.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "E-tebligatlar UETS gelen kutusunda birikir. Hangisini dosyanıza işlediğinizi hatırlamak ise ayrı bir iş olur.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve hangisinin Jurvia'ya aktarıldığını gösterir. Eksik eki olan tebligatları da aynı listede görürsünüz.\n\nAktarmak istediklerinizi seçersiniz; gerisi yerinde kalır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "E-tebligatlar UETS gelen kutusunda birikir. Hangisini dosyanıza işlediğinizi hatırlamak ise ayrı bir iş olur.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve hangisinin Jurvia'ya aktarıldığını gösterir. Eksik eki olan tebligatları da aynı listede görürsünüz.\n\nAktarmak istediklerinizi seçersiniz; gerisi yerinde kalır.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

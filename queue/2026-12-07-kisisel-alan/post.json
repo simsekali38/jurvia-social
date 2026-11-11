@@ -1,0 +1,34 @@
+{
+  "id": "2026-12-07-kisisel-alan",
+  "publish_on": "2026-12-07",
+  "topic": "ekip-erisim",
+  "utm_content": "kisisel_alan",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "Ekip ve erişim",
+      "headline": "Kişisel alanla başlayın,\n*ekibinizle paylaşın.*",
+      "steps": [
+        {
+          "title": "Kişisel alan",
+          "text": "Kendi ayrı çalışma alanınızla başlarsınız."
+        },
+        {
+          "title": "Açık paylaşım",
+          "text": "Dosyaları ve işlem yetkilerini açıkça paylaşırsınız."
+        },
+        {
+          "title": "Rol ve işlem",
+          "text": "Herkes rolüne ve işlemine göre erişir."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Tek başınıza çalışıyor olsanız da, bir ekiple çalışıyor olsanız da başlangıç aynıdır.\n\nJurvia'da kişisel çalışma alanınızla başlarsınız; kişisel alanlar birbirinden ayrıdır. Ekiple çalışmaya geçtiğinizde dosya ve işlem yetkilerini açık paylaşım ilkesiyle verirsiniz. Erişim rol ve işlem bazındadır.\n\nPaylaşmadığınız, sizde kalır.\n\nLink profilde.\n\n#avukat #hukukbürosu #ekipçalışması #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Tek başınıza çalışıyor olsanız da, bir ekiple çalışıyor olsanız da başlangıç aynıdır.\n\nJurvia'da kişisel çalışma alanınızla başlarsınız; kişisel alanlar birbirinden ayrıdır. Ekiple çalışmaya geçtiğinizde dosya ve işlem yetkilerini açık paylaşım ilkesiyle verirsiniz. Erişim rol ve işlem bazındadır.\n\nPaylaşmadığınız, sizde kalır.\n\nGüvenlik yaklaşımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

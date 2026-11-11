@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-12-cakisan-kayitlar",
+  "publish_on": "2026-11-12",
+  "topic": "takvim",
+  "utm_content": "cakisan_kayitlar",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "list",
+      "eyebrow": "Jurvia takvim",
+      "headline": "Aynı saate iki iş mi?\n*Takvim gösterir.*",
+      "items": [
+        {
+          "title": "Çakışmalar",
+          "text": "Çakışan duruşma ve görüşmeler takvimde fark edilir.",
+          "mark": "✓"
+        },
+        {
+          "title": "Görünümler",
+          "text": "Gün, hafta, ay ve gündem görünümleri arasında geçin.",
+          "mark": "✓"
+        },
+        {
+          "title": "Hazırlık ayrı",
+          "text": "Hazırlık işi kendi son tarihiyle ayrı bir görevdir.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Yoğun bir haftada iki kaydın aynı saate denk gelmesi kolaydır.\n\nJurvia takviminde duruşmalar ve görüşmeler bir arada durur; çakışan kayıtlar fark edilir. Gün, hafta, ay ve gündem görünümleri arasında geçerek önünüzü görürsünüz.\n\nHer etkinliğin hazırlık işi ise ayrı bir görev olarak, kendi son tarihiyle planlanır.\n\nLink profilde.\n\n#avukat #hukukbürosu #avukattakvimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Yoğun bir haftada iki kaydın aynı saate denk gelmesi kolaydır.\n\nJurvia takviminde duruşmalar ve görüşmeler bir arada durur; çakışan kayıtlar fark edilir. Gün, hafta, ay ve gündem görünümleri arasında geçerek önünüzü görürsünüz.\n\nHer etkinliğin hazırlık işi ise ayrı bir görev olarak, kendi son tarihiyle planlanır.\n\nTakvim özelliğini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

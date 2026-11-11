@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-19-erisim-ilkeleri",
+  "publish_on": "2026-11-19",
+  "topic": "ekip-erisim",
+  "utm_content": "erisim_ilkeleri",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Ekip ve erişim",
+      "headline": "Erişimde\n*dört temel ilke.*",
+      "cards": [
+        {
+          "title": "Kişisel alan",
+          "text": "Çalışmaya kişisel çalışma alanıyla başlanır."
+        },
+        {
+          "title": "Açık paylaşım",
+          "text": "Dosya ve işlem yetkileri açıkça paylaşılır."
+        },
+        {
+          "title": "Rol ve işlem",
+          "text": "Erişim, rol ve işlem bazında tanımlanır."
+        },
+        {
+          "title": "Özel depolama",
+          "text": "Belgeler özel belge depolamada tutulur."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Ekip büyüdükçe erişim kuralları da netleşmelidir.\n\nJurvia'da kişisel çalışma alanıyla başlanır ve kişisel alanlar birbirinden ayrı tutulur. Dosya ve işlem yetkileri açık paylaşım ilkesiyle yönetilir; erişim rol ve işlem bazındadır. Belgeler özel belge depolamada saklanır.\n\nKim neyi görüyor sorusunun cevabı, yaptığınız paylaşımdır.\n\nLink profilde.\n\n#avukat #hukukbürosu #ekipçalışması #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Ekip büyüdükçe erişim kuralları da netleşmelidir.\n\nJurvia'da kişisel çalışma alanıyla başlanır ve kişisel alanlar birbirinden ayrı tutulur. Dosya ve işlem yetkileri açık paylaşım ilkesiyle yönetilir; erişim rol ve işlem bazındadır. Belgeler özel belge depolamada saklanır.\n\nKim neyi görüyor sorusunun cevabı, yaptığınız paylaşımdır.\n\nGüvenlik yaklaşımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

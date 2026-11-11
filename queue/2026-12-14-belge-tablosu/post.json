@@ -1,0 +1,38 @@
+{
+  "id": "2026-12-14-belge-tablosu",
+  "publish_on": "2026-12-14",
+  "topic": "belgeler",
+  "utm_content": "belge_tablosu",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Belgeler sayfası",
+      "headline": "Belgeleriniz\n*yoğun bir tabloda.*",
+      "cards": [
+        {
+          "title": "Tablo görünümü",
+          "text": "Belgeler sayfası yoğun bir tablo görünümüyle çalışır."
+        },
+        {
+          "title": "Dosyaya bağlı",
+          "text": "Her belge ilgili dosyayla bağlantılı tutulur."
+        },
+        {
+          "title": "Sürüm izleme",
+          "text": "Belgenin sürümleri izlenir."
+        },
+        {
+          "title": "DOCX ve PDF",
+          "text": "DOCX odaklı çalışın, DOCX veya PDF çıktısı alın."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Belge sayısı arttıkça, onları bir arada ve düzenli görmek önem kazanır.\n\nJurvia'nın Belgeler sayfası yoğun bir tablo görünümüyle çalışır. Her belge ilgili dosyayla bağlantılıdır ve sürümleri izlenir. Çalışma DOCX odaklıdır; DOCX veya PDF çıktısı alırsınız.\n\nBelgeleriniz tek bir tabloda, dosyalarıyla birlikte.\n\nLink profilde.\n\n#avukat #hukukbürosu #belgeyönetimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Belge sayısı arttıkça, onları bir arada ve düzenli görmek önem kazanır.\n\nJurvia'nın Belgeler sayfası yoğun bir tablo görünümüyle çalışır. Her belge ilgili dosyayla bağlantılıdır ve sürümleri izlenir. Çalışma DOCX odaklıdır; DOCX veya PDF çıktısı alırsınız.\n\nBelgeleriniz tek bir tabloda, dosyalarıyla birlikte.\n\nBelge özelliklerini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

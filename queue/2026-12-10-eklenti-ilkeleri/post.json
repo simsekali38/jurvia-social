@@ -1,0 +1,38 @@
+{
+  "id": "2026-12-10-eklenti-ilkeleri",
+  "publish_on": "2026-12-10",
+  "topic": "gizlilik",
+  "utm_content": "eklenti_ilkeleri",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Gizlilik",
+      "headline": "Eklentide\n*neler yok?*",
+      "cards": [
+        {
+          "title": "Şifre okuma yok",
+          "text": "Kullanıcı adı, şifre ve e-imza PIN'i okunmaz."
+        },
+        {
+          "title": "Çerez okuma yok",
+          "text": "Çerezler okunmaz, saklanmaz, gönderilmez."
+        },
+        {
+          "title": "Reklam ve analiz yok",
+          "text": "Eklentide reklam veya analiz aracı bulunmaz."
+        },
+        {
+          "title": "Uzaktan kod yok",
+          "text": "Uzaktan yüklenen kod kullanılmaz."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bir eklentiyi değerlendirirken ne yaptığı kadar ne yapmadığı da önemlidir.\n\nJurvia · UYAP + UETS eklentisi; kullanıcı adı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Eklentide reklam, analiz aracı veya uzaktan yüklenen kod yoktur.\n\nEklenti Chrome Web Store'dan kurulur ve kullanmak zorunlu değildir.\n\nLink profilde.\n\n#avukat #hukukbürosu #gizlilik #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir eklentiyi değerlendirirken ne yaptığı kadar ne yapmadığı da önemlidir.\n\nJurvia · UYAP + UETS eklentisi; kullanıcı adı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Eklentide reklam, analiz aracı veya uzaktan yüklenen kod yoktur.\n\nEklenti Chrome Web Store'dan kurulur ve kullanmak zorunlu değildir.\n\nGizlilik ilkelerini okuyun: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

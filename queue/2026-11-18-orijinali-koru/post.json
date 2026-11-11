@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-18-orijinali-koru",
+  "publish_on": "2026-11-18",
+  "topic": "belgeler",
+  "utm_content": "orijinali_koru",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "Belgeler",
+      "headline": "Orijinal belge\n*yerinde kalsın.*",
+      "steps": [
+        {
+          "title": "Belgeyi dosyaya bağlayın",
+          "text": "Belge, ilgili dosyanın içinde durur."
+        },
+        {
+          "title": "Sürümle çalışın",
+          "text": "Orijinal içerik ve belge kimliği korunarak sürüm oluşur."
+        },
+        {
+          "title": "Çıktı alın",
+          "text": "İhtiyaca göre DOCX veya PDF çıktısı alın."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bir belge üzerinde çalışırken orijinali kaybetmek istemezsiniz.\n\nJurvia'da belgeler ilgili dosyayla bağlantılı tutulur ve sürümleri izlenir. Orijinali koruyan sürümlerde orijinal içerik ve belge kimliği korunur. Çalışma DOCX odaklıdır; ihtiyacınıza göre DOCX veya PDF çıktısı alırsınız.\n\nOrijinal yerinde, sürümler dosyanın içinde.\n\nLink profilde.\n\n#avukat #hukukbürosu #belgeyönetimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir belge üzerinde çalışırken orijinali kaybetmek istemezsiniz.\n\nJurvia'da belgeler ilgili dosyayla bağlantılı tutulur ve sürümleri izlenir. Orijinali koruyan sürümlerde orijinal içerik ve belge kimliği korunur. Çalışma DOCX odaklıdır; ihtiyacınıza göre DOCX veya PDF çıktısı alırsınız.\n\nOrijinal yerinde, sürümler dosyanın içinde.\n\nBelge özelliklerini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

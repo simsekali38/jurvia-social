@@ -1,0 +1,43 @@
+{
+  "id": "2026-12-01-dosya-baglami",
+  "publish_on": "2026-12-01",
+  "topic": "dosyalar",
+  "utm_content": "dosya_baglami",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "list",
+      "eyebrow": "Dosyada neler var?",
+      "headline": "Bir dosya,\n*bütün bağlantıları.*",
+      "items": [
+        {
+          "title": "Takvim ve görevler",
+          "text": "Dosyanın duruşmaları, görüşmeleri ve hazırlık görevleri.",
+          "mark": "✓"
+        },
+        {
+          "title": "Evrak ve tebligatlar",
+          "text": "Aktarılan evraklar ve bağlanan e-tebligatlar.",
+          "mark": "✓"
+        },
+        {
+          "title": "Taraflar ve gelişmeler",
+          "text": "Dosya bağlamında tutulan bilgiler.",
+          "mark": "✓"
+        }
+      ]
+    },
+    {
+      "layout": "statement",
+      "eyebrow": "Dosyalar",
+      "headline": "Taraflar ve gelişmeler\n*dosyayla birlikte.*",
+      "body": "Jurvia'da taraflar ve dosya gelişmeleri dosya bağlamında tutulur. Dosyayı açtığınızda takvimi, görevleri, evrakları ve tebligatları da oradadır."
+    }
+  ],
+  "instagram": {
+    "caption": "Bir dosyanın bütün resmini görmek için birkaç farklı yere bakmak gerekmesin.\n\nJurvia'da bir dosyanın takvimi, görevleri, evrakları ve tebligatları aynı yerde görülür. Taraflar ve dosya gelişmeleri de dosya bağlamında tutulur.\n\nKaydırın, bir dosyanın içinde neler olduğunu görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #dosyatakibi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir dosyanın bütün resmini görmek için birkaç farklı yere bakmak gerekmesin.\n\nJurvia'da bir dosyanın takvimi, görevleri, evrakları ve tebligatları aynı yerde görülür. Taraflar ve dosya gelişmeleri de dosya bağlamında tutulur.\n\nKaydırın, bir dosyanın içinde neler olduğunu görün.\n\nJurvia'yı inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

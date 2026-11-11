@@ -1,0 +1,38 @@
+{
+  "id": "2026-12-12-gorev-karti",
+  "publish_on": "2026-12-12",
+  "topic": "gorevler",
+  "utm_content": "gorev_karti",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Jurvia görevler",
+      "headline": "Bir görevde\n*neler olmalı?*",
+      "cards": [
+        {
+          "title": "Başlık ve sonuç",
+          "text": "Ne yapılacağını ve beklenen sonucu baştan yazın."
+        },
+        {
+          "title": "İlgili etkinlik",
+          "text": "Görevi bağlı olduğu duruşma ya da görüşmeye bağlayın."
+        },
+        {
+          "title": "Sorumlu ve son tarih",
+          "text": "İşi kimin, ne zamana kadar yapacağı açıkça görünür."
+        },
+        {
+          "title": "Kontrol adımları",
+          "text": "Tamamlanan iş adım adım kontrol edilir."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "\"Bunu kim yapıyordu?\" sorusu, işler yalnız akılda ya da yazışmalarda durduğunda sorulur.\n\nJurvia'da bir hazırlık görevi şu bilgileri taşır: başlık, beklenen sonuç, ilgili etkinlik, sorumlu, son tarih ve kontrol adımları. Görev, bağlı olduğu duruşma ya da görüşmeyle birlikte izlenir.\n\nİş bittiğinde kontrol edilir; devamında yapılacak iş ayrı bir görev olarak açılır.\n\nLink profilde.\n\n#avukat #hukukbürosu #görevtakibi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "\"Bunu kim yapıyordu?\" sorusu, işler yalnız akılda ya da yazışmalarda durduğunda sorulur.\n\nJurvia'da bir hazırlık görevi şu bilgileri taşır: başlık, beklenen sonuç, ilgili etkinlik, sorumlu, son tarih ve kontrol adımları. Görev, bağlı olduğu duruşma ya da görüşmeyle birlikte izlenir.\n\nİş bittiğinde kontrol edilir; devamında yapılacak iş ayrı bir görev olarak açılır.\n\nGörev takibini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

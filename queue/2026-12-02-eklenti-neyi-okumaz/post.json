@@ -1,0 +1,56 @@
+{
+  "id": "2026-12-02-eklenti-neyi-okumaz",
+  "publish_on": "2026-12-02",
+  "topic": "gizlilik",
+  "utm_content": "eklenti_neyi_okumaz",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "Gizlilik",
+      "headline": "Eklentinin\n*okumadığı bilgiler.*",
+      "steps": [
+        {
+          "title": "Giriş bilgileri",
+          "text": "UYAP/UETS kullanıcı adı ve şifresi okunmaz."
+        },
+        {
+          "title": "E-imza PIN'i",
+          "text": "E-imza PIN'i okunmaz, saklanmaz, gönderilmez."
+        },
+        {
+          "title": "Çerezler",
+          "text": "Tarayıcı çerezleri okunmaz, saklanmaz, gönderilmez."
+        }
+      ]
+    },
+    {
+      "layout": "list",
+      "eyebrow": "Ayrıca",
+      "headline": "Kayıtlar yalnız\n*sizin hesabınıza gider.*",
+      "items": [
+        {
+          "title": "Maskeli kimlik numaraları",
+          "text": "TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür.",
+          "mark": "✓"
+        },
+        {
+          "title": "Seçtiğiniz dosya",
+          "text": "Kayıtlar giriş yaptığınız hesaba ve seçtiğiniz dosyaya gider.",
+          "mark": "✓"
+        },
+        {
+          "title": "Reklam ve analiz yok",
+          "text": "Eklentide reklam, analiz aracı veya uzaktan yüklenen kod yoktur.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bir tarayıcı eklentisi kurmadan önce \"neyi okuyor?\" diye sormak yerindedir.\n\nJurvia · UYAP + UETS eklentisi; UYAP/UETS kullanıcı adınızı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür ve Jurvia'ya gönderilmeden önce çıkarılır.\n\nKaydırın, diğer ilkeleri görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #gizlilik #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir tarayıcı eklentisi kurmadan önce \"neyi okuyor?\" diye sormak yerindedir.\n\nJurvia · UYAP + UETS eklentisi; UYAP/UETS kullanıcı adınızı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür ve Jurvia'ya gönderilmeden önce çıkarılır.\n\nKaydırın, diğer ilkeleri görün.\n\nGizlilik ilkelerini okuyun: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

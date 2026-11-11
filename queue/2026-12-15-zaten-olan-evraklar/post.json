@@ -1,0 +1,37 @@
+{
+  "id": "2026-12-15-zaten-olan-evraklar",
+  "publish_on": "2026-12-15",
+  "topic": "uyap-evrak",
+  "utm_content": "zaten_olan_evraklar",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "list",
+      "eyebrow": "UYAP + UETS eklentisi",
+      "headline": "Aynı evrakı\n*iki kez aktarmayın.*",
+      "items": [
+        {
+          "title": "Mevcut evraklar ayrı",
+          "text": "Jurvia'da zaten bulunan evraklar ayrıca gösterilir.",
+          "mark": "✓"
+        },
+        {
+          "title": "Yalnız kalanlar",
+          "text": "Kalan evraklar eşleşen dosyaya aktarılır.",
+          "mark": "✓"
+        },
+        {
+          "title": "Siz başlatırsınız",
+          "text": "Aktarım yalnız siz başlattığınızda yapılır.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Aynı evrakın dosyada iki kez bulunması, aramayı ve kontrolü zorlaştırır.\n\nJurvia · UYAP + UETS eklentisiyle UYAP'ta bir dosyayı açtığınızda, Jurvia'da zaten bulunan evraklar ayrıca gösterilir. Seçtiğiniz kalan evraklar eşleşen Jurvia dosyasına aktarılır.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uyap #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Aynı evrakın dosyada iki kez bulunması, aramayı ve kontrolü zorlaştırır.\n\nJurvia · UYAP + UETS eklentisiyle UYAP'ta bir dosyayı açtığınızda, Jurvia'da zaten bulunan evraklar ayrıca gösterilir. Seçtiğiniz kalan evraklar eşleşen Jurvia dosyasına aktarılır.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nEklentiyi inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

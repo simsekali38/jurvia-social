@@ -1,0 +1,34 @@
+{
+  "id": "2026-12-04-gorev-akisi",
+  "publish_on": "2026-12-04",
+  "topic": "gorevler",
+  "utm_content": "gorev_akisi",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "Görevler",
+      "headline": "Hazırlıktan kontrole\n*bir görevin yolu.*",
+      "steps": [
+        {
+          "title": "Tanımlayın",
+          "text": "Başlığı, beklenen sonucu ve ilgili etkinliği yazın."
+        },
+        {
+          "title": "Atayın",
+          "text": "Sorumluyu ve son tarihi belirleyin."
+        },
+        {
+          "title": "Kontrol edin",
+          "text": "Biten işi kontrol edin, devam işini ayrı açın."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "İyi tanımlanmış bir görev, yarı yarıya yapılmış bir iştir.\n\nJurvia'da bir hazırlık görevini başlığı, beklenen sonucu ve ilgili etkinliğiyle tanımlarsınız. Sorumluyu ve son tarihi belirlersiniz. İş tamamlandığında kontrol adımlarıyla gözden geçirir, devam işini ayrı bir görev olarak açarsınız.\n\nTanımla, ata, kontrol et.\n\nLink profilde.\n\n#avukat #hukukbürosu #görevtakibi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "İyi tanımlanmış bir görev, yarı yarıya yapılmış bir iştir.\n\nJurvia'da bir hazırlık görevini başlığı, beklenen sonucu ve ilgili etkinliğiyle tanımlarsınız. Sorumluyu ve son tarihi belirlersiniz. İş tamamlandığında kontrol adımlarıyla gözden geçirir, devam işini ayrı bir görev olarak açarsınız.\n\nTanımla, ata, kontrol et.\n\nGörev takibini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

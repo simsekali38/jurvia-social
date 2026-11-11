@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-30-yogun-arayuz",
+  "publish_on": "2026-11-30",
+  "topic": "yogun-arayuz",
+  "utm_content": "yogun_arayuz",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "Arayüz",
+      "headline": "Bir ekranda\n*daha çok kayıt.*",
+      "cards": [
+        {
+          "title": "Küçük yazı",
+          "text": "Sade ve okunur küçük yazı boyutu."
+        },
+        {
+          "title": "Sık satırlar",
+          "text": "Satırlar sık dizilir, liste derli toplu görünür."
+        },
+        {
+          "title": "İkonlu butonlar",
+          "text": "Butonlar ikonlarla, az yer kaplayarak."
+        },
+        {
+          "title": "Sade düzen",
+          "text": "Gereksiz boşluk yerine kayıtlarınız öne çıkar."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Gün boyu kayıtlarla çalışan biri için ekranın her santimi değerlidir.\n\nJurvia arayüzü yoğun ve sade tasarlandı: küçük yazı, sık satırlar ve ikonlu butonlar. Bir ekranda daha çok kayıt görürsünüz, aradığınıza daha az kaydırarak ulaşırsınız.\n\nAz süs, çok bilgi.\n\nLink profilde.\n\n#avukat #hukukbürosu #kullanıcıdeneyimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Gün boyu kayıtlarla çalışan biri için ekranın her santimi değerlidir.\n\nJurvia arayüzü yoğun ve sade tasarlandı: küçük yazı, sık satırlar ve ikonlu butonlar. Bir ekranda daha çok kayıt görürsünüz, aradığınıza daha az kaydırarak ulaşırsınız.\n\nAz süs, çok bilgi.\n\nJurvia'yı inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

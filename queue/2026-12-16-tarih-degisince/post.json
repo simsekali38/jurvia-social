@@ -1,0 +1,40 @@
+{
+  "id": "2026-12-16-tarih-degisince",
+  "publish_on": "2026-12-16",
+  "topic": "takvim",
+  "utm_content": "tarih_degisince",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "statement",
+      "eyebrow": "Jurvia takvim",
+      "headline": "Tarih değişti.\n*Bağlı işler ne olacak?*",
+      "body": "Duruşmanın ya da görüşmenin tarihi değiştiğinde, ona bağlı hazırlık işlerini Jurvia takviminde aynı yerden gözden geçirirsiniz."
+    },
+    {
+      "layout": "steps",
+      "eyebrow": "Nasıl çalışır?",
+      "headline": "Etkinlik ve hazırlık\n*birbirine bağlı.*",
+      "steps": [
+        {
+          "title": "Etkinlik",
+          "text": "Duruşma veya görüşme takvimde yer alır."
+        },
+        {
+          "title": "Hazırlık görevi",
+          "text": "Öncesindeki iş, kendi son tarihiyle ayrı planlanır."
+        },
+        {
+          "title": "Gözden geçirme",
+          "text": "Tarih değişirse bağlı işler birlikte ele alınır."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Takvimdeki bir tarih değiştiğinde, asıl soru ona bağlı işlerin ne olacağıdır.\n\nJurvia takviminde etkinliğin öncesindeki hazırlık işi ayrı bir görev olarak, kendi son tarihiyle planlanır. Etkinlik tarihi değiştiğinde bu bağlı işleri aynı yerden gözden geçirirsiniz.\n\nKaydırın, etkinlik ile hazırlığın nasıl bağlandığını görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #avukattakvimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Takvimdeki bir tarih değiştiğinde, asıl soru ona bağlı işlerin ne olacağıdır.\n\nJurvia takviminde etkinliğin öncesindeki hazırlık işi ayrı bir görev olarak, kendi son tarihiyle planlanır. Etkinlik tarihi değiştiğinde bu bağlı işleri aynı yerden gözden geçirirsiniz.\n\nKaydırın, etkinlik ile hazırlığın nasıl bağlandığını görün.\n\nTakvim özelliğini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

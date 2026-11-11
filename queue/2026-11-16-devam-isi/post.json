@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-16-devam-isi",
+  "publish_on": "2026-11-16",
+  "topic": "gorevler",
+  "utm_content": "devam_isi",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "list",
+      "eyebrow": "Görevler",
+      "headline": "İş bitti mi?\n*Önce kontrol, sonra devam.*",
+      "items": [
+        {
+          "title": "Kontrol adımları",
+          "text": "Tamamlanan iş, görevdeki kontrol adımlarıyla gözden geçirilir.",
+          "mark": "✓"
+        },
+        {
+          "title": "Devam işi",
+          "text": "Sonrasında yapılacak iş ayrı bir görev olarak açılır.",
+          "mark": "✓"
+        },
+        {
+          "title": "Sorumlu belli",
+          "text": "Her görevin sorumlusu ve son tarihi görünür kalır.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bir işi bitirmek, çoğu zaman bir sonrakini başlatır.\n\nJurvia'da tamamlanan iş, görevdeki kontrol adımlarıyla gözden geçirilir. Devamında yapılacak bir iş varsa ayrı bir görev olarak açılır; kendi sorumlusu ve son tarihiyle.\n\nBöylece biten işle başlayacak iş birbirine karışmaz.\n\nLink profilde.\n\n#avukat #hukukbürosu #görevtakibi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir işi bitirmek, çoğu zaman bir sonrakini başlatır.\n\nJurvia'da tamamlanan iş, görevdeki kontrol adımlarıyla gözden geçirilir. Devamında yapılacak bir iş varsa ayrı bir görev olarak açılır; kendi sorumlusu ve son tarihiyle.\n\nBöylece biten işle başlayacak iş birbirine karışmaz.\n\nGörev takibini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

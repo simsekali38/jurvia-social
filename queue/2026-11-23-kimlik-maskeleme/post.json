@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-23-kimlik-maskeleme",
+  "publish_on": "2026-11-23",
+  "topic": "gizlilik",
+  "utm_content": "kimlik_maskeleme",
+  "theme": "light",
+  "slides": [
+    {
+      "layout": "steps",
+      "eyebrow": "Gizlilik",
+      "headline": "Kimlik numaraları\n*eklentide kalır.*",
+      "steps": [
+        {
+          "title": "Maskeli görünür",
+          "text": "Tarafların TC kimlik ve vergi numaraları eklentide maskelidir."
+        },
+        {
+          "title": "Gönderilmeden çıkarılır",
+          "text": "Bu numaralar Jurvia'ya gönderilmeden önce çıkarılır."
+        },
+        {
+          "title": "Seçtiğiniz dosyaya",
+          "text": "Kayıtlar yalnız hesabınıza ve seçtiğiniz dosyaya gider."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Dava evraklarında tarafların kimlik bilgileri bulunur. Bu bilgilerin nereye gittiği önemlidir.\n\nJurvia · UYAP + UETS eklentisinde tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür ve Jurvia'ya gönderilmeden önce çıkarılır. Kayıtlar yalnız giriş yaptığınız Jurvia hesabına ve seçtiğiniz dosyaya gider.\n\nEklentiyi kullanmak zorunlu değildir; Chrome Web Store'dan kurulur.\n\nLink profilde.\n\n#avukat #hukukbürosu #gizlilik #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Dava evraklarında tarafların kimlik bilgileri bulunur. Bu bilgilerin nereye gittiği önemlidir.\n\nJurvia · UYAP + UETS eklentisinde tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür ve Jurvia'ya gönderilmeden önce çıkarılır. Kayıtlar yalnız giriş yaptığınız Jurvia hesabına ve seçtiğiniz dosyaya gider.\n\nEklentiyi kullanmak zorunlu değildir; Chrome Web Store'dan kurulur.\n\nGizlilik ilkelerini okuyun: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

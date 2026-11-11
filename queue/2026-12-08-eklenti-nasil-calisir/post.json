@@ -1,0 +1,38 @@
+{
+  "id": "2026-12-08-eklenti-nasil-calisir",
+  "publish_on": "2026-12-08",
+  "topic": "uyap-evrak",
+  "utm_content": "eklenti_nasil_calisir",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "grid",
+      "eyebrow": "UYAP + UETS eklentisi",
+      "headline": "Eklenti\n*nasıl çalışır?*",
+      "cards": [
+        {
+          "title": "Kendi oturumunuz",
+          "text": "Evraklar kendi tarayıcı oturumunuzla okunur."
+        },
+        {
+          "title": "Dosya tanınır",
+          "text": "UYAP'ta açtığınız dosyayı eklenti tanır."
+        },
+        {
+          "title": "Seçerek aktarım",
+          "text": "Seçtiğiniz evraklar eşleşen dosyaya aktarılır."
+        },
+        {
+          "title": "ZIP seçeneği",
+          "text": "İsterseniz evrakları ZIP olarak indirin."
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Jurvia · UYAP + UETS Chrome eklentisi dört adımda özetlenebilir.\n\nUYAP Avukat Portalı'ndaki dava evraklarını kendi tarayıcı oturumunuzla okur. Açtığınız dosyayı tanır. Seçtiğiniz evrakları eşleşen Jurvia dosyasına aktarır; eşleşen dosya yoksa yenisi açılır. İsterseniz evrakları ZIP olarak da indirirsiniz.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uyap #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Jurvia · UYAP + UETS Chrome eklentisi dört adımda özetlenebilir.\n\nUYAP Avukat Portalı'ndaki dava evraklarını kendi tarayıcı oturumunuzla okur. Açtığınız dosyayı tanır. Seçtiğiniz evrakları eşleşen Jurvia dosyasına aktarır; eşleşen dosya yoksa yenisi açılır. İsterseniz evrakları ZIP olarak da indirirsiniz.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nEklentiyi inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}

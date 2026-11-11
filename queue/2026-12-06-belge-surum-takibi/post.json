@@ -1,0 +1,43 @@
+{
+  "id": "2026-12-06-belge-surum-takibi",
+  "publish_on": "2026-12-06",
+  "topic": "belgeler",
+  "utm_content": "belge_surum_takibi",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "statement",
+      "eyebrow": "Belgeler",
+      "headline": "Belge dosyada,\n*sürümler izleniyor.*",
+      "body": "Jurvia'da her belge ilgili dosyayla bağlantılı tutulur ve sürümleri izlenir. Orijinali koruyan sürümlerde orijinal içerik ve belge kimliği korunur."
+    },
+    {
+      "layout": "list",
+      "eyebrow": "Çalışma şekli",
+      "headline": "DOCX ile çalışın,\n*ihtiyaca göre çıktı alın.*",
+      "items": [
+        {
+          "title": "DOCX odaklı",
+          "text": "Belgeler üzerinde DOCX odaklı çalışırsınız.",
+          "mark": "✓"
+        },
+        {
+          "title": "DOCX veya PDF",
+          "text": "İhtiyacınıza göre DOCX veya PDF çıktısı alırsınız.",
+          "mark": "✓"
+        },
+        {
+          "title": "Tablo görünümü",
+          "text": "Belgeler sayfası yoğun bir tablo görünümüyle çalışır.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Bir belgenin hangi sürümünün nerede olduğunu aramak yerine, hepsini dosyanın içinde bulun.\n\nJurvia'da her belge ilgili dosyayla bağlantılı tutulur ve sürümleri izlenir. Orijinali koruyan sürümlerde orijinal içerik ve belge kimliği korunur. DOCX odaklı çalışır, DOCX veya PDF çıktısı alırsınız.\n\nKaydırın, çalışma şeklini görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #belgeyönetimi #hukukteknolojisi"
+  },
+  "linkedin": {
+    "text": "Bir belgenin hangi sürümünün nerede olduğunu aramak yerine, hepsini dosyanın içinde bulun.\n\nJurvia'da her belge ilgili dosyayla bağlantılı tutulur ve sürümleri izlenir. Orijinali koruyan sürümlerde orijinal içerik ve belge kimliği korunur. DOCX odaklı çalışır, DOCX veya PDF çıktısı alırsınız.\n\nKaydırın, çalışma şeklini görün.\n\nBelge özelliklerini inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}
