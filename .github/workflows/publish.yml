@@ -2,8 +2,11 @@ name: Publish
 
 on:
   schedule:
-    # Tuesday and Friday 10:10 Europe/Istanbul (07:10 UTC). GitHub may start scheduled runs a few minutes late.
+    # Tuesday and Friday 10:10 Europe/Istanbul (07:10 UTC). GitHub can delay or drop scheduled runs,
+    # so two backup runs follow; a run with nothing pending exits without posting.
     - cron: '10 7 * * 2,5'
+    - cron: '40 9 * * 2,5'
+    - cron: '10 12 * * 2,5'
   workflow_dispatch:
     inputs:
       mode:
@@ -29,6 +32,9 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Branch head at run time, not the trigger commit, so a queued run sees state saved by the previous one.
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
