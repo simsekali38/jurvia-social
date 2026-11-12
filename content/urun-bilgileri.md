@@ -16,6 +16,7 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 - Avukat UYAP'ta dosyayı açar, eklenti açılan dosyayı tanır.
 - Evraklar seçilir; Jurvia'da zaten bulunan evraklar ayrıca gösterilir, kalanlar eşleşen Jurvia dosyasına aktarılır.
 - Eşleşen dosya yoksa yeni dosya açılır. İstenirse evraklar ZIP olarak indirilebilir.
+- Yeni açılan dosyada müvekkil henüz seçilmediyse dosyada uyarı ve "Müvekkili seç" kısayolu görünür.
 - Aktarım yalnız kullanıcı başlattığında yapılır; Jurvia kayıtları UYAP'tan kendiliğinden güncellenmez.
 
 ### uets-tebligat — status: mevcut — sayfa: /features/uyap-uets
@@ -31,7 +32,9 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 - Eklenti Chrome Web Store'dan kurulur; kullanmak zorunlu değildir.
 
 ### takvim — status: mevcut — sayfa: /features/calendar
-- Gün, hafta, ay ve gündem görünümleri.
+- Gün, hafta, ay ve gündem görünümleri; kayıt türleri renkleriyle ayrışır.
+- Sol panelde küçük ay takvimi ve filtreler; panel açılıp kapatılabilir.
+- Telefonda takvim gün görünümüyle açılır.
 - Duruşma ve görüşmeler takvimde; çakışan kayıtlar fark edilir.
 - Etkinliğin öncesindeki hazırlık işi ayrı bir görev olarak, kendi son tarihiyle planlanır.
 - Etkinlik tarihi değiştiğinde bağlı işler gözden geçirilir.
@@ -46,6 +49,7 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 - Orijinali koruyan sürümler: orijinal içerik ve belge kimliği korunur.
 - DOCX odaklı çalışma; DOCX veya PDF çıktısı alınır.
 - Belgeler sayfası yoğun bir tablo (grid) görünümüyle çalışır.
+- UYAP'tan gelen TIFF, JPG ve PNG evraklar da dosyada saklanır; JPG ve PNG ekranda önizlenir, TIFF indirilir.
 
 ### dosyalar — status: mevcut — sayfa: /
 - Dosyalar sayfasında tablo ve kart görünümü, gruplama.
@@ -58,6 +62,40 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 
 ### yogun-arayuz — status: mevcut — sayfa: /
 - Arayüz yoğun ve sade: küçük yazı, sık satırlar, ikonlu butonlar; bir ekranda daha çok kayıt görünür.
+
+### hatirlatmalar — status: mevcut — sayfa: /features/calendar
+- Duruşma ve keşif gibi etkinlikler için birden fazla hatırlatma kurulabilir; görevler için de hatırlatma gelir.
+- Hatırlatmalar uygulama içinde (zil ve bildirim kutusu), e-postayla ve tarayıcı bildirimiyle gelebilir.
+- İstenirse her sabah günün ajandası gönderilir.
+- Hatırlatma "gördüm" diye işaretlenebilir veya ertelenebilir; gece saatlerinde sessiz saat uygulanır.
+- E-posta ve bildirimlerde müvekkil adı veya dosya numarası yer almaz; ayrıntı oturum açınca görünür.
+- iPhone'da tarayıcı bildirimi için Jurvia ana ekrana eklenir.
+
+### tatil-gorunumu — status: mevcut — sayfa: /features/calendar
+- Bayram ve tatil günleri takvimde işaretli görünür; yarım gün arifelerde başlangıç saati yazar.
+- Adli tatil dönemi takvimde şerit olarak görünür.
+- Tatile denk gelen kayıtlar için takvimde uyarı çıkar.
+- Hangi tatil türlerinin görüneceği ayarlardan seçilebilir.
+- Not: Gönderide tatillerin sürelere etkisi anlatılmaz, tatil kutlaması yapılmaz; yalnız takvimde nasıl göründüğü anlatılır.
+
+### uyap-uets-sekmesi — status: mevcut — sayfa: /features/uyap-uets
+- Dosya sayfasında "UYAP / UETS" sekmesi bulunur.
+- Eklentiyle aktarılan taraf ve safahat bilgileri ile dosyanın tebligatları bu sekmede birlikte görünür.
+- Tebligatlar ekranından her tebligat için tek bir "Tebligatı incele" görevi açılabilir; görev dosyaya bağlı kalır ve sekmede listelenir.
+
+### yardim — status: mevcut — sayfa: /
+- Uygulama içinde yardım merkezi vardır; ekranların nasıl kullanıldığını anlatan makaleler bulunur.
+- Ekranlardaki yardım simgesi o ekranın makalesini açar.
+- Makalelerde arama yapılabilir; makaleler yazdırılabilir veya PDF olarak kaydedilebilir.
+
+### buro-ayarlari — status: mevcut — sayfa: /solutions/law-firms
+- Büro sahibi ayarlar sayfasından büronun genel ayarlarını yönetir: saat dilimi, hafta başı, çalışma günleri ve mesai aralığı.
+- Büro profili: unvan, iletişim bilgileri ve logo.
+- Büro için ortak seçenek listeleri (ör. hukuk alanları) tutulur; ekip kayıtları aynı seçeneklerle açar.
+- Ayarlar sayfasındaki genel bakış, eksik kalan ayarları gösterir.
+
+### sure-onerisi — status: yol-haritasi
+- Kurallar gereği (süre hesabı ve mevzuat yazılmaz) bu konu otomatik gönderilerde kullanılmaz.
 
 ### musteri-portali — status: yol-haritasi
 ### belge-talepleri — status: yol-haritasi
