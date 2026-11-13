@@ -62,6 +62,7 @@ export function toLittleText(text) {
   return text.split(/(https?:\/\/\S+)/).map((part, i) => {
     if (i % 2) return part;
     const escaped = part.replace(/[\\|{}@\[\]()<>#*_~]/g, (c) => `\\${c}`);
-    return escaped.replace(/\\#([\p{L}\p{N}_]+)/gu, (_, tag) => `{hashtag|\\#|${tag}}`);
+    // LinkedIn shows the {hashtag|\#|tag} template literally; a bare #tag is linked by LinkedIn itself.
+    return escaped.replace(/\\#(?=[\p{L}\p{N}])/gu, '#');
   }).join('');
 }
