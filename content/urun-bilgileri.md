@@ -7,7 +7,8 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 - Geliştiren: Alias Yazılım, Kayseri.
 - Web sitesi: https://jurvia.com.tr · Ürün sayfası (eklenti): https://jurvia.com.tr/features/uyap-uets · Ürün görüşmesi: https://jurvia.com.tr/demo
 - Instagram: @jurvia.app · LinkedIn: linkedin.com/company/jurvia
-- Ürün görüşmesi ile tanışılır; fiyat ve kapsam görüşmede belirlenir (gönderide fiyat, indirim veya ücretsiz deneme yazılmaz).
+- Ürün görüşmesi ile tanışılır. Paketler ve fiyatlar https://jurvia.com.tr/pricing sayfasında açıktır; Kurumsal paketin kapsamı görüşmede belirlenir.
+- Gönderide fiyat tutarı, para birimi, indirim, yıllık ödeme avantajı, ücretsiz deneme veya kampanya yazılmaz. Paketler yalnız `fiyatlar` konusunda, tutar vermeden anlatılır ve paketler sayfasına yönlendirilir (tutarlar değişebilir; yayımlanan görsel değişmez). "Fiyat" kelimesi denetimde yasaklıdır; gönderide "paketler" denir.
 
 ## Konular (status: mevcut olanlar kullanılabilir)
 
@@ -93,6 +94,17 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 - Büro profili: unvan, iletişim bilgileri ve logo.
 - Büro için ortak seçenek listeleri (ör. hukuk alanları) tutulur; ekip kayıtları aynı seçeneklerle açar.
 - Ayarlar sayfasındaki genel bakış, eksik kalan ayarları gösterir.
+
+### fiyatlar — status: mevcut — sayfa: /pricing
+- Jurvia'nın paketleri ve fiyatları web sitesindeki fiyat sayfasında açıkça yayımlanır.
+- Dört paket vardır: Başlangıç, Uzman, Ekip ve Kurumsal. Başlangıç, Uzman ve Ekip açık fiyatlıdır; Kurumsal için teklif hazırlanır.
+- Paketler özellik ekleyerek büyür: işlerini düzenlemek (Başlangıç), işini derinlemesine yönetmek (Uzman), ekiple çalışmak (Ekip), kurumsal ihtiyaçlar (Kurumsal).
+- Ücret büro aboneliği olarak alınır; büroya ek iç kullanıcı eklenebilir.
+- UYAP/UETS eklentisiyle aktarım her pakette vardır.
+- Ödeme aylık veya yıllık seçilir; aylık ve yıllık ödemede özellikler aynıdır.
+- Fiyatlar KDV hariç gösterilir; KDV dahil tutar hemen altında yazar.
+- Ücretli kullanım yakında başlıyor; şimdilik fiyat sayfasından erken erişim başvurusu yapılır, Kurumsal için görüşme istenir.
+- Not: Gönderide tutar, indirim, yıllık ödeme avantajı veya deneme yazılmaz; paketlerin ayrıntılı özellik listesi yerine paketler sayfasına yönlendirilir. Bu konu en fazla ayda bir kullanılır.
 
 ### sure-onerisi — status: yol-haritasi
 - Kurallar gereği (süre hesabı ve mevzuat yazılmaz) bu konu otomatik gönderilerde kullanılmaz.

@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-19-paketler-sitede",
+  "publish_on": "2026-11-19",
+  "topic": "fiyatlar",
+  "utm_content": "paketler_sitede",
+  "theme": "dark",
+  "slides": [
+    {
+      "layout": "statement",
+      "eyebrow": "Paketler",
+      "headline": "Paketler artık\n*sitede açık.*",
+      "body": "Başlangıç, Uzman, Ekip ve Kurumsal. Her paketin kapsamı ve tutarı web sitesinde yazıyor. Ücretli kullanım yakında başlıyor; şimdilik erken erişim başvurusu yapılabiliyor."
+    },
+    {
+      "layout": "list",
+      "eyebrow": "Nasıl işler",
+      "headline": "Büro aboneliği,\n*açık kurallar.*",
+      "items": [
+        {
+          "title": "Ek iç kullanıcı",
+          "text": "Ücret büro için alınır; büroya ek iç kullanıcı eklenebilir.",
+          "mark": "✓"
+        },
+        {
+          "title": "UYAP/UETS her pakette",
+          "text": "Eklentiyle aktarım dört pakette de vardır.",
+          "mark": "✓"
+        },
+        {
+          "title": "Aylık veya yıllık",
+          "text": "Ödeme dönemi seçilir; özellikler iki dönemde de aynıdır.",
+          "mark": "✓"
+        }
+      ]
+    }
+  ],
+  "instagram": {
+    "caption": "Jurvia'nın paketleri artık web sitesinde açık.\n\nDört paket var: Başlangıç, Uzman, Ekip ve Kurumsal. Paketler özellik ekleyerek büyür: işlerinizi düzenlemekle başlar; işinizi derinlemesine yönetmeye, ekiple çalışmaya ve kurumsal ihtiyaçlara uzanır.\n\nÜcret büro aboneliği olarak alınır; büroya ek iç kullanıcı eklenebilir. UYAP/UETS eklentisiyle aktarım her pakette var. Ödeme aylık veya yıllık seçilir; özellikler iki dönemde de aynıdır. Tutarlar KDV hariç yazılır, KDV dahil tutar hemen altında görünür.\n\nÜcretli kullanım yakında başlıyor; şimdilik erken erişim başvurusu yapabilirsiniz.\n\nLink profilde.\n\n#avukat #hukukbürosu #hukukteknolojisi #jurvia"
+  },
+  "linkedin": {
+    "text": "Jurvia'nın paketleri artık web sitesinde açık.\n\nDört paket var: Başlangıç, Uzman, Ekip ve Kurumsal. Paketler özellik ekleyerek büyür: işlerinizi düzenlemekle başlar; işinizi derinlemesine yönetmeye, ekiple çalışmaya ve kurumsal ihtiyaçlara uzanır. Kurumsal paketin kapsamı görüşmede belirlenir.\n\nÜcret büro aboneliği olarak alınır; büroya ek iç kullanıcı eklenebilir. UYAP/UETS eklentisiyle aktarım her pakette var. Ödeme aylık veya yıllık seçilir; özellikler iki dönemde de aynıdır. Tutarlar KDV hariç yazılır, KDV dahil tutar hemen altında görünür.\n\nÜcretli kullanım yakında başlıyor; şimdilik erken erişim başvurusu yapabilirsiniz.\n\nPaketleri inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+  }
+}
