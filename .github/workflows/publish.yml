@@ -50,6 +50,13 @@ jobs:
           MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'publish' }}
           POST_ID: ${{ inputs.post_id }}
         run: |
+          # A late scheduled run can start after midnight Istanbul time, when tomorrow's post is already "due".
+          # Automatic runs therefore never publish before 10:00 Istanbul; name a post_id to override.
+          hour=$(TZ=Europe/Istanbul date +%-H)
+          if [ "$MODE" = "publish" ] && [ -z "$POST_ID" ] && [ "$hour" -lt 10 ]; then
+            echo "It is $(TZ=Europe/Istanbul date +%H:%M) in Istanbul; posts go out from 10:00. Nothing published."
+            exit 0
+          fi
           args=()
           [ "$MODE" = "dry-run" ] && args+=(--dry-run)
           [ "$MODE" = "check" ] && args+=(--check)
