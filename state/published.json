@@ -119,6 +119,16 @@
         "post_urn": "urn:li:share:7530165871948959744",
         "published_at": "2026-11-22T07:10:48.050Z"
       }
+    },
+    "2026-11-23-kimlik-maskeleme": {
+      "instagram": {
+        "media_id": "18138158581656428",
+        "published_at": "2026-11-23T07:10:50.082Z"
+      },
+      "linkedin": {
+        "post_urn": "urn:li:share:7530528274586861568",
+        "published_at": "2026-11-23T07:10:51.353Z"
+      }
     }
   }
 }
