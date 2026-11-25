@@ -21,17 +21,17 @@
           "mark": "✓"
         },
         {
-          "title": "Eksik ekler",
-          "text": "Eki eksik olan tebligatlar ayrıca görülebilir.",
+          "title": "Ek durumu",
+          "text": "Tebligatın ek durumu listede görünür.",
           "mark": "✓"
         }
       ]
     }
   ],
   "instagram": {
-    "caption": "E-tebligatlar UETS gelen kutusunda birikir. Hangisini dosyanıza işlediğinizi hatırlamak ise ayrı bir iş olur.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve hangisinin Jurvia'ya aktarıldığını gösterir. Eksik eki olan tebligatları da aynı listede görürsünüz.\n\nAktarmak istediklerinizi seçersiniz; gerisi yerinde kalır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
+    "caption": "E-tebligatlar UETS gelen kutusunda birikir. Hangisini dosyanıza işlediğinizi hatırlamak ise ayrı bir iş olur.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve hangisinin Jurvia'ya aktarıldığını gösterir. Ek durumunu da aynı listede görürsünüz.\n\nAktarmak istediklerinizi seçersiniz; gerisi yerinde kalır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
   },
   "linkedin": {
-    "text": "E-tebligatlar UETS gelen kutusunda birikir. Hangisini dosyanıza işlediğinizi hatırlamak ise ayrı bir iş olur.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve hangisinin Jurvia'ya aktarıldığını gösterir. Eksik eki olan tebligatları da aynı listede görürsünüz.\n\nAktarmak istediklerinizi seçersiniz; gerisi yerinde kalır.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+    "text": "E-tebligatlar UETS gelen kutusunda birikir. Hangisini dosyanıza işlediğinizi hatırlamak ise ayrı bir iş olur.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve hangisinin Jurvia'ya aktarıldığını gösterir. Ek durumunu da aynı listede görürsünüz.\n\nAktarmak istediklerinizi seçersiniz; gerisi yerinde kalır.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
   }
 }

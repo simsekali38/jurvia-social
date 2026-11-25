@@ -8,14 +8,14 @@
     {
       "layout": "statement",
       "eyebrow": "UETS e-tebligat",
-      "headline": "Eki eksik tebligatı\n*gözden kaçırmayın.*",
-      "body": "Eklenti UETS gelen kutusundaki e-tebligatları listeler ve eksik eki olan tebligatları görmenizi sağlar. Hangisinin Jurvia'ya aktarıldığı da aynı listede görünür."
+      "headline": "Tebligatın ek durumunu\n*aktarmadan önce görün.*",
+      "body": "Eklenti UETS gelen kutusundaki e-tebligatları listeler ve her tebligatın ek durumunu gösterir. Hangisinin Jurvia'ya aktarıldığı da aynı listede görünür."
     }
   ],
   "instagram": {
-    "caption": "Bir tebligatın eki eksikse, bunu dosyaya işlemeden önce bilmek istersiniz.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve eksik eki olan tebligatları görmenizi sağlar. Hangi tebligatın Jurvia'ya aktarıldığı da aynı listede görünür.\n\nSeçtiğiniz tebligatlar ekleri ve tebliğ olaylarıyla dosyaya bağlanır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
+    "caption": "Tebligatı dosyaya işlemeden önce eklerinin durumunu kontrol edebilirsiniz.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve her tebligatın ek durumunu gösterir. Hangi tebligatın Jurvia'ya aktarıldığı da aynı listede görünür.\n\nSeçtiğiniz tebligatlar ekleri ve tebliğ olaylarıyla dosyaya bağlanır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uets #etebligat #hukukteknolojisi"
   },
   "linkedin": {
-    "text": "Bir tebligatın eki eksikse, bunu dosyaya işlemeden önce bilmek istersiniz.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve eksik eki olan tebligatları görmenizi sağlar. Hangi tebligatın Jurvia'ya aktarıldığı da aynı listede görünür.\n\nSeçtiğiniz tebligatlar ekleri ve tebliğ olaylarıyla dosyaya bağlanır.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+    "text": "Tebligatı dosyaya işlemeden önce eklerinin durumunu kontrol edebilirsiniz.\n\nJurvia · UYAP + UETS eklentisi, UETS gelen kutusundaki e-tebligatları listeler ve her tebligatın ek durumunu gösterir. Hangi tebligatın Jurvia'ya aktarıldığı da aynı listede görünür.\n\nSeçtiğiniz tebligatlar ekleri ve tebliğ olaylarıyla dosyaya bağlanır.\n\nUETS aktarımını inceleyin: {link}\n\n#avukat #hukukteknolojisi"
   }
 }

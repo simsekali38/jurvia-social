@@ -21,17 +21,17 @@
           "mark": "✓"
         },
         {
-          "title": "Siz başlatırsınız",
-          "text": "Aktarım yalnız siz başlattığınızda yapılır.",
+          "title": "Otomatik senkron isteğe bağlı",
+          "text": "Otomatik UYAP senkronu yalnız sizin onayınızla başlar.",
           "mark": "✓"
         }
       ]
     }
   ],
   "instagram": {
-    "caption": "Aynı evrakın dosyada iki kez bulunması, aramayı ve kontrolü zorlaştırır.\n\nJurvia · UYAP + UETS eklentisiyle UYAP'ta bir dosyayı açtığınızda, Jurvia'da zaten bulunan evraklar ayrıca gösterilir. Seçtiğiniz kalan evraklar eşleşen Jurvia dosyasına aktarılır.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nLink profilde.\n\n#avukat #hukukbürosu #uyap #hukukteknolojisi"
+    "caption": "Aynı evrakın dosyada iki kez bulunması, aramayı ve kontrolü zorlaştırır.\n\nJurvia · UYAP + UETS eklentisiyle UYAP'ta bir dosyayı açtığınızda, Jurvia'da zaten bulunan evraklar ayrıca gösterilir. Seçtiğiniz kalan evraklar eşleşen Jurvia dosyasına aktarılır.\n\nManuel aktarımı siz başlatırsınız. Otomatik UYAP senkronunu isterseniz siz açarsınız.\n\nLink profilde.\n\n#avukat #hukukbürosu #uyap #hukukteknolojisi"
   },
   "linkedin": {
-    "text": "Aynı evrakın dosyada iki kez bulunması, aramayı ve kontrolü zorlaştırır.\n\nJurvia · UYAP + UETS eklentisiyle UYAP'ta bir dosyayı açtığınızda, Jurvia'da zaten bulunan evraklar ayrıca gösterilir. Seçtiğiniz kalan evraklar eşleşen Jurvia dosyasına aktarılır.\n\nAktarım yalnız siz başlattığınızda yapılır.\n\nEklentiyi inceleyin: {link}\n\n#avukat #hukukteknolojisi"
+    "text": "Aynı evrakın dosyada iki kez bulunması, aramayı ve kontrolü zorlaştırır.\n\nJurvia · UYAP + UETS eklentisiyle UYAP'ta bir dosyayı açtığınızda, Jurvia'da zaten bulunan evraklar ayrıca gösterilir. Seçtiğiniz kalan evraklar eşleşen Jurvia dosyasına aktarılır.\n\nManuel aktarımı siz başlatırsınız. Otomatik UYAP senkronunu isterseniz siz açarsınız.\n\nEklentiyi inceleyin: {link}\n\n#avukat #hukukteknolojisi"
   }
 }

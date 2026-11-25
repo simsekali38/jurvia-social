@@ -19,7 +19,7 @@ const BANNED = [
   [/en\s*iyi|\btek\s+(çözüm|program|uygulama)|%\s*\d|\d+\s*%|garanti/, 'abartı/istatistik'],
   [/ücretsiz|bedava|indirim|fiyat|₺|\btl\b|pilot|deneme\s*sürümü|kampanya/, 'fiyat/teklif ifadesi'],
   [/yapay\s*zek|\bai\b|chatgpt|otomatik\s*olarak\s*güncell/, 'üründe olmayan özellik'],
-  [/belge\s*talep|mali\s*hareket|tahsilat|masraf|avans/, 'yol haritasındaki özellik'],
+  [/belge\s*talep/, 'kapalı özellik (portaldan belge yükleme)'],
 ];
 const norm = (s) => s.replace(/İ/g, 'i').replace(/I/g, 'ı').toLowerCase();
 

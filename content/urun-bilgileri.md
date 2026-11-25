@@ -18,7 +18,8 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 - Evraklar seçilir; Jurvia'da zaten bulunan evraklar ayrıca gösterilir, kalanlar eşleşen Jurvia dosyasına aktarılır.
 - Eşleşen dosya yoksa yeni dosya açılır. İstenirse evraklar ZIP olarak indirilebilir.
 - Yeni açılan dosyada müvekkil henüz seçilmediyse dosyada uyarı ve "Müvekkili seç" kısayolu görünür.
-- Aktarım yalnız kullanıcı başlattığında yapılır; Jurvia kayıtları UYAP'tan kendiliğinden güncellenmez.
+- Manuel aktarımı kullanıcı başlatır. Otomatik UYAP senkronu varsayılan olarak kapalıdır. Kullanıcı açıp kaynak hesabı ve hedef çalışma alanını onayladığında açık UYAP oturumuyla çalışır. Tarih aralığı seçilmediyse ilk tur başlangıç listesini oluşturur; sonraki turlar yeni evrakları aktarır. UETS için arka plan taraması yapılmaz.
+- XLSX UYAP aktarımıyla Jurvia’ya alınır ve özgün biçiminde indirilebilir. UYAP’ın indirmeye izin verdiği HTML ekler ZIP ile alınabilir.
 
 ### uets-tebligat — status: mevcut — sayfa: /features/uyap-uets
 - Eklenti UETS gelen kutusundaki e-tebligatları listeler, hangisinin Jurvia'ya aktarıldığını gösterir.
@@ -27,7 +28,7 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 
 ### gizlilik — status: mevcut — sayfa: /privacy
 - Eklenti UYAP/UETS kullanıcı adı ve şifresini, e-imza PIN'ini ve çerezleri okumaz, saklamaz, göndermez.
-- Tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür, Jurvia'ya gönderilmeden önce çıkarılır.
+- Tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür, yapılandırılmış taraf ve safahat alanlarından aktarım öncesi çıkarılır. Özgün evrakın içeriği korunur.
 - Kayıtlar yalnız giriş yapılan Jurvia hesabına ve seçilen dosyaya gider.
 - Eklentide reklam, analiz aracı veya uzaktan yüklenen kod yoktur.
 - Eklenti Chrome Web Store'dan kurulur; kullanmak zorunlu değildir.
@@ -109,10 +110,14 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 ### sure-onerisi — status: yol-haritasi
 - Kurallar gereği (süre hesabı ve mevzuat yazılmaz) bu konu otomatik gönderilerde kullanılmaz.
 
-### musteri-portali — status: mevcut — sayfa: /
+### musteri-portali — status: mevcut — sayfa: /pricing
 - Avukat, dosyadaki belgelerden seçtiğini müvekkilin portalında yayımlar; yayımlanmayan belge ve iç çalışma notları portalda görünmez.
 - Müvekkil kendi portalında yalnız kendisiyle paylaşılan dosyaları ve yayımlanan belgeleri görür.
 - Yayımlanan belgenin sürümü ve avukatın eklediği "sonraki adım" notu belgenin yanında görünür.
-- Müvekkilin portaldan belge yüklemesi henüz kullanıma açık değildir (bkz. belge-talepleri); gönderide yazılmaz.
-### belge-talepleri — status: yol-haritasi
-### mali-hareketler — status: yol-haritasi
+- Daveti kabul eden müvekkil yalnız kendisine yayımlanan gelişmeleri ve seçili belge sürümlerini görür. Temel paylaşım Başlangıç paketinin kapsamındadır.
+
+### belge-talepleri — status: sinirli — sayfa: /pricing
+- Belge talepleri Uzman ve üzeri paketlerin kapsamındadır. Production ortamında portaldan belge yükleme kapalıdır. Yükleme için gönderi hazırlamayın.
+
+### mali-hareketler — status: mevcut — sayfa: /pricing
+- Temel tahsilat ve masraf kaydı Başlangıç kapsamındadır. Uzman ve üzeri paketlerde avukat seçtiği mali dökümü portala yayımlayabilir. Müvekkil kendisine yayımlanan dökümü görür.

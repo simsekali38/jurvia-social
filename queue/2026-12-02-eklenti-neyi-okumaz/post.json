@@ -48,9 +48,9 @@
     }
   ],
   "instagram": {
-    "caption": "Bir tarayıcı eklentisi kurmadan önce \"neyi okuyor?\" diye sormak yerindedir.\n\nJurvia · UYAP + UETS eklentisi; UYAP/UETS kullanıcı adınızı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür ve Jurvia'ya gönderilmeden önce çıkarılır.\n\nKaydırın, diğer ilkeleri görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #gizlilik #hukukteknolojisi"
+    "caption": "Bir tarayıcı eklentisi kurmadan önce \"neyi okuyor?\" diye sormak yerindedir.\n\nJurvia · UYAP + UETS eklentisi; UYAP/UETS kullanıcı adınızı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Tarafların TC kimlik ve vergi numaraları eklentide maskeli görünür. Numaralar taraf ve safahat alanlarından çıkarılır. Aktarılan özgün evrakın içeriği korunur.\n\nKaydırın, diğer ilkeleri görün.\n\nLink profilde.\n\n#avukat #hukukbürosu #gizlilik #hukukteknolojisi"
   },
   "linkedin": {
-    "text": "Bir tarayıcı eklentisi kurmadan önce \"neyi okuyor?\" diye sormak yerindedir.\n\nJurvia · UYAP + UETS eklentisi; UYAP/UETS kullanıcı adınızı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Tarafların TC kimlik ve vergi numaraları yalnız eklentide maskeli görünür ve Jurvia'ya gönderilmeden önce çıkarılır.\n\nKaydırın, diğer ilkeleri görün.\n\nGizlilik ilkelerini okuyun: {link}\n\n#avukat #hukukteknolojisi"
+    "text": "Bir tarayıcı eklentisi kurmadan önce \"neyi okuyor?\" diye sormak yerindedir.\n\nJurvia · UYAP + UETS eklentisi; UYAP/UETS kullanıcı adınızı ve şifrenizi, e-imza PIN'inizi ve çerezleri okumaz, saklamaz, göndermez. Tarafların TC kimlik ve vergi numaraları eklentide maskeli görünür. Numaralar taraf ve safahat alanlarından çıkarılır. Aktarılan özgün evrakın içeriği korunur.\n\nKaydırın, diğer ilkeleri görün.\n\nGizlilik ilkelerini okuyun: {link}\n\n#avukat #hukukteknolojisi"
   }
 }
