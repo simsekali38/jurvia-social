@@ -109,6 +109,10 @@ Gönderilerde **yalnız bu dosyadaki bilgiler** kullanılır. Burada olmayan bir
 ### sure-onerisi — status: yol-haritasi
 - Kurallar gereği (süre hesabı ve mevzuat yazılmaz) bu konu otomatik gönderilerde kullanılmaz.
 
-### musteri-portali — status: yol-haritasi
+### musteri-portali — status: mevcut — sayfa: /
+- Avukat, dosyadaki belgelerden seçtiğini müvekkilin portalında yayımlar; yayımlanmayan belge ve iç çalışma notları portalda görünmez.
+- Müvekkil kendi portalında yalnız kendisiyle paylaşılan dosyaları ve yayımlanan belgeleri görür.
+- Yayımlanan belgenin sürümü ve avukatın eklediği "sonraki adım" notu belgenin yanında görünür.
+- Müvekkilin portaldan belge yüklemesi henüz kullanıma açık değildir (bkz. belge-talepleri); gönderide yazılmaz.
 ### belge-talepleri — status: yol-haritasi
 ### mali-hareketler — status: yol-haritasi
