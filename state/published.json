@@ -169,6 +169,16 @@
         "post_urn": "urn:li:ugcPost:7531977862430679040",
         "published_at": "2026-11-27T07:11:00.354Z"
       }
+    },
+    "2026-11-28-acik-paylasim": {
+      "instagram": {
+        "media_id": "18120947684121494",
+        "published_at": "2026-11-28T16:06:53.375Z"
+      },
+      "linkedin": {
+        "post_urn": "urn:li:share:7532475116996222976",
+        "published_at": "2026-11-28T16:06:55.272Z"
+      }
     }
   }
 }
